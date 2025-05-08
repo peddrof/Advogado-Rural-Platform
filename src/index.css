@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 142 48% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 142 48% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 142 48% 18%;
+
+    --primary: 142 48% 18%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 43 38% 97%;
+    --secondary-foreground: 142 48% 18%;
+
+    --muted: 43 20% 97%;
+    --muted-foreground: 142 30% 30%;
+
+    --accent: 43 38% 97%;
+    --accent-foreground: 142 48% 18%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 30% 30%;
+    --input: 142 30% 30%;
+    --ring: 142 48% 18%;
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-rural-darkgreen font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-rural-darkgreen text-white hover:bg-rural-green transition-colors duration-300 rounded-xl px-6 py-3 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-white/20 backdrop-blur-sm text-white border border-white/30 hover:bg-white/30 transition-colors duration-300 rounded-xl px-6 py-3 font-medium;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-md overflow-hidden border border-rural-darkbeige/20;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-bold text-rural-darkgreen mb-6;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+}
