@@ -218,7 +218,7 @@ const AboutPage = () => {
             <a href="/blog" className="btn-primary mr-4">
               Explorar o Blog
             </a>
-            <a href="/contato" className="btn-secondary">
+            <a href="/contato" className="bg-white/20 backdrop-blur-sm text-rural-darkgreen border border-rural-darkgreen/30 hover:bg-white/30 transition-colors duration-300 rounded-xl px-6 py-3 font-medium">
               Entre em Contato
             </a>
           </div>

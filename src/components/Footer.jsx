@@ -23,10 +23,11 @@ const Footer = () => {
             <img  
             
             alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-           src="https://iili.io/3eD3Cp2.md.png" />
+           src="https://iili.io/3eD3Cp2.md.png"
+           className="h-12 w-auto" />
             </Link>
             <p className="text-rural-beige/80 mt-4">
-              Assessoria jurídica especializada para o homem do campo, defendendo seus direitos e interesses com conhecimento e dedicação.
+              Assessoria jurídica especializada para o homem do campo, defendendo seus direitos e interesses com conhecimento e dedicação. OAB/RS n˚ 63.985.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="https://www.facebook.com/profile.php?id=100002139094007&ref=ig_profile_ac" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
@@ -130,20 +131,16 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 flex-shrink-0 text-rural-beige/80" />
                 <span className="text-rural-beige/80">
-                  Av. Presidente Vargas, 1000, Centro<br />
-                  Cidade Verde, SP, 12345-678
+                Av. Diário de Notícias, 400, 
+                sala 2113, Barra Shopping Sul, 
+                Ed. Diamond Tower, Cristal, 
+                Porto Alegre, RS, 90810-080
                 </span>
-              </li>
-              <li className="flex items-center">
-                <Phone size={20} className="mr-3 flex-shrink-0 text-rural-beige/80" />
-                <a href="tel:+551199999999" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  (11) 99999-9999
-                </a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-rural-beige/80" />
                 <a href="mailto:contato@advogadorural.com.br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  contato@advogadorural.com.br
+                guilherme.medeiros@wba.adv.br
                 </a>
               </li>
             </ul>

@@ -78,7 +78,7 @@ const CategorySection = () => {
             <motion.div 
               key={category.id}
               variants={item}
-              className="bg-rural-beige rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border border-rural-darkbeige/20"
+              className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300 border border-rural-darkbeige/20"
             >
               <div className="text-4xl mb-4">{category.icon}</div>
               <h3 className="text-xl font-serif font-bold mb-2">{category.title}</h3>
