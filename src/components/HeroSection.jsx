@@ -14,10 +14,10 @@ const HeroSection = () => {
           transition={{ duration: 0.7 }}
           className="relative rounded-3xl overflow-hidden"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-rural-darkgreen/90 to-rural-darkgreen/70 z-10"></div>
+          <div className="absolute"></div>
           
           <img  
-            className="w-full h-[500px] md:h-[600px]"
+            className="w-full h-[500px] md:h-[600px] object-cover"
             alt="Paisagem rural com fazenda e plantações com homem em frente"
            src="https://iili.io/3etrokQ.md.png" />
           

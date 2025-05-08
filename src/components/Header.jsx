@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X, Search } from 'lucide-react';
@@ -36,10 +35,10 @@ const Header = ({ scrolled }) => {
             className="text-2xl font-serif font-bold"
           >
             <img  
-    alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-    src="https://iili.io/3etyQQs.md.png"
-     />
-
+              alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
+              src="https://iili.io/3etyQQs.md.png"
+              className="h-12 w-auto"
+            />
           </motion.div>
         </Link>
 
