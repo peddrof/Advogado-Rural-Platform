@@ -36,8 +36,10 @@ const Header = ({ scrolled }) => {
             className="text-2xl font-serif font-bold"
           >
             <img  
-            alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-           src="https://iili.io/3etyQQs.md.png" />
+    alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
+    src="https://iili.io/3etyQQs.md.png"
+    style="width: 150px; height: auto;" />
+
           </motion.div>
         </Link>
 
