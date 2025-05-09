@@ -149,7 +149,7 @@ const ContactPage = () => {
         setIsSubmitted(false);
       }, 3000);
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.error('Error submitting form:', error); // Added for debugging
       toast({
         title: "Erro",
         description: "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
