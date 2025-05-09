@@ -72,11 +72,7 @@ const Footer = () => {
                   Contato
                 </Link>
               </li>
-              <li>
-                <Link to="#" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  Política de Privacidade
-                </Link>
-              </li>
+              
             </ul>
           </motion.div>
 
