@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
@@ -20,23 +19,37 @@ const Footer = () => {
             className="space-y-4"
           >
             <Link to="/" className="inline-block">
-            <img  
-            
-            alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-           src="https://iili.io/3eD3Cp2.md.png"
-           className="h-12 w-auto" />
+              <img  
+                alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
+                src="https://iili.io/3eD3Cp2.md.png"
+                className="h-12 w-auto" />
             </Link>
             <p className="text-rural-beige/80 mt-4">
               Assessoria jurídica especializada para o homem do campo, defendendo seus direitos e interesses com conhecimento e dedicação. OAB/RS n˚ 63.985.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="https://www.facebook.com/profile.php?id=100002139094007&ref=ig_profile_ac" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+              <a 
+                href="https://www.facebook.com/profile.php?id=100002139094007&ref=ig_profile_ac" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300"
+              >
                 <Facebook size={20} />
               </a>
-              <a href="https://www.instagram.com/advogadorural/" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+              <a 
+                href="https://www.instagram.com/advogadorural/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/guilherme-medeiros-a3546051/?originalSubdomain=br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+              <a 
+                href="https://www.linkedin.com/in/guilherme-medeiros-a3546051/?originalSubdomain=br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300"
+              >
                 <Linkedin size={20} />
               </a>
             </div>
@@ -122,16 +135,16 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 flex-shrink-0 text-rural-beige/80" />
                 <span className="text-rural-beige/80">
-                Av. Diário de Notícias, 400, <br/>
-                sala 2113, Barra Shopping Sul, <br/>
-                Ed. Diamond Tower, Cristal, <br/>
-                Porto Alegre, RS, 90810-080
+                  Av. Diário de Notícias, 400, <br/>
+                  sala 2113, Barra Shopping Sul, <br/>
+                  Ed. Diamond Tower, Cristal, <br/>
+                  Porto Alegre, RS, 90810-080
                 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-rural-beige/80" />
                 <a href="mailto:guilherme.medeiros@wba.adv.br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                guilherme.medeiros@wba.adv.br
+                  guilherme.medeiros@wba.adv.br
                 </a>
               </li>
             </ul>

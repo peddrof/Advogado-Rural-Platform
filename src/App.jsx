@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Toaster } from '@/components/ui/toaster';
 import { motion } from 'framer-motion';
 
@@ -15,6 +14,17 @@ import AboutPage from '@/pages/AboutPage';
 import ContactPage from '@/pages/ContactPage';
 import NotFoundPage from '@/pages/NotFoundPage';
 
+// Component to handle scroll-to-top on route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 function App() {
   return (
     <Router>
@@ -23,6 +33,7 @@ function App() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<HomePage />} />
