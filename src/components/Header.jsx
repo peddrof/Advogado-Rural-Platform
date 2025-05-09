@@ -142,7 +142,7 @@ const Header = ({ scrolled }) => {
                 </button>
               </div>
               <div className="mt-4 text-white text-center">
-                Pressione ESC para fechar
+                Pressione o "X" para fechar
               </div>
             </div>
           </motion.div>

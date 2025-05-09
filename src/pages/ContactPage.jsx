@@ -85,32 +85,21 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold mb-1">Endereço</h3>
                     <p className="text-rural-beige/80">
-                      Av. Presidente Vargas, 1000<br />
-                      Centro, Cidade Verde - SP<br />
-                      CEP: 12345-678
+                    Av. Diário de Notícias, 400, <br/>
+                sala 2113, Barra Shopping Sul, <br/>
+                Ed. Diamond Tower, Cristal, <br/>
+                Porto Alegre, RS, 90810-080
                     </p>
                   </div>
                 </div>
-                
-                <div className="flex items-start">
-                  <Phone className="w-6 h-6 mr-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-bold mb-1">Telefone</h3>
-                    <p className="text-rural-beige/80">
-                      <a href="tel:+551199999999" className="hover:text-rural-beige transition-colors duration-300">
-                        (11) 99999-9999
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                
+              
                 <div className="flex items-start">
                   <Mail className="w-6 h-6 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold mb-1">E-mail</h3>
                     <p className="text-rural-beige/80">
-                      <a href="mailto:contato@advogadorural.com.br" className="hover:text-rural-beige transition-colors duration-300">
-                        contato@advogadorural.com.br
+                      <a href="mailto:guilherme.medeiros@wba.adv.br" className="hover:text-rural-beige transition-colors duration-300">
+                      guilherme.medeiros@wba.adv.br
                       </a>
                     </p>
                   </div>
@@ -119,8 +108,7 @@ const ContactPage = () => {
               
               <div className="mt-12">
                 <h3 className="font-bold mb-4">Horário de Atendimento</h3>
-                <p className="text-rural-beige/80 mb-2">Segunda a Sexta: 9h às 18h</p>
-                <p className="text-rural-beige/80">Sábados: 9h às 12h</p>
+                <p className="text-rural-beige/80 mb-2">Segunda a Sexta: <br/>8h30 às 12h e <br/>13h30 às 18h</p>
               </div>
             </div>
           </motion.div>
@@ -256,16 +244,7 @@ const ContactPage = () => {
             Nossa Localização
           </h2>
           <div className="rounded-2xl overflow-hidden h-[400px] shadow-sm border border-rural-darkbeige/20">
-            <iframe 
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-46.65%2C-23.56%2C-46.63%2C-23.54&amp;layer=mapnik" 
-              width="100%" 
-              height="100%" 
-              frameBorder="0" 
-              style={{ border: 0 }} 
-              allowFullScreen="" 
-              aria-hidden="false" 
-              tabIndex="0"
-            ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8546716343376!2d-51.2484133239869!3d-30.084669674903388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978a0b6c805c9%3A0xb571b13564864657!2sDiamond%20Tower!5e1!3m2!1spt-BR!2sbr!4v1746749199615!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </motion.div>
 

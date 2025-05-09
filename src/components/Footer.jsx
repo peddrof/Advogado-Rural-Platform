@@ -131,15 +131,15 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 flex-shrink-0 text-rural-beige/80" />
                 <span className="text-rural-beige/80">
-                Av. Diário de Notícias, 400, 
-                sala 2113, Barra Shopping Sul, 
-                Ed. Diamond Tower, Cristal, 
+                Av. Diário de Notícias, 400, <br/>
+                sala 2113, Barra Shopping Sul, <br/>
+                Ed. Diamond Tower, Cristal, <br/>
                 Porto Alegre, RS, 90810-080
                 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-rural-beige/80" />
-                <a href="mailto:contato@advogadorural.com.br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+                <a href="mailto:guilherme.medeiros@wba.adv.br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
                 guilherme.medeiros@wba.adv.br
                 </a>
               </li>
