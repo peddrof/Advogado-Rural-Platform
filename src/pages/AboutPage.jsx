@@ -222,7 +222,6 @@ const AboutPage = () => {
               Entre em Contato
             </a>
           </div>
-          <NewsletterSection />
         </motion.div>
       </div>
     </div>
