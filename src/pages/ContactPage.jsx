@@ -7,90 +7,91 @@ import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
 const faqData = [
   {
-    category: 'General',
+    category: 'Geral',
     questions: [
       {
-        question: 'What services does your firm provide?',
-        answer: 'We provide a wide range of legal services tailored to the rural sector, including land use and zoning, agricultural law, environmental compliance, and more.'
+        question: 'Quais serviços jurídicos específicos vocês oferecem para proprietários rurais?',
+        answer: 'Oferecemos serviços jurídicos personalizados para proprietários rurais, incluindo assistência com registros de imóveis, disputas de divisas, arrendamentos rurais e conformidade com regulamentações ambientais específicas para propriedades rurais no Brasil.'
       },
       {
-        question: 'How can I contact your firm?',
-        answer: 'You can contact us via phone, email, or by filling out the form on our contact page. Our office hours are Monday to Friday, 9 AM to 5 PM.'
+        question: 'Como posso agendar uma consulta com seu escritório?',
+        answer: 'Você pode agendar uma consulta ligando para o nosso número de telefone, enviando um e-mail para guilherme.medeiros@wba.adv.br ou preenchendo o formulário de contato nesta página. Oferecemos consultas presenciais e virtuais, disponíveis de segunda a sexta-feira, das 8h30 às 18h.'
       },
       {
-        question: 'What are your office hours?',
-        answer: 'Our office is open from 9 AM to 5 PM, Monday through Friday. We are closed on weekends and public holidays.'
+        question: 'Quais são os horários de funcionamento do escritório de Porto Alegre?',
+        answer: 'Nosso escritório em Porto Alegre funciona de segunda a sexta-feira, das 8h30 às 12h e das 13h30 às 18h. Estamos fechados nos finais de semana e feriados nacionais.'
       },
       {
-        question: 'Do you offer consultations in English?',
-        answer: 'Yes, we offer consultations in both Portuguese and English to accommodate our diverse clientele.'
+        question: 'Vocês oferecem atendimento jurídico em outros idiomas além do português?',
+        answer: 'Sim, oferecemos consultas jurídicas em português e inglês para atender clientes internacionais e aqueles que preferem o atendimento em inglês.'
       }
     ]
   },
   {
-    category: 'Rural Law',
+    category: 'Direito Rural',
     questions: [
       {
-        question: 'What is rural law?',
-        answer: 'Rural law encompasses legal issues specific to rural areas, including land use, agricultural regulations, water rights, and environmental laws.'
+        question: 'Quais questões jurídicas são abrangidas pelo direito rural brasileiro?',
+        answer: 'O direito rural brasileiro trata de questões como propriedade e registro de terras (por exemplo, CAR e conformidade com o INCRA), contratos agrícolas, outorga de uso de água e cumprimento do Código Florestal.'
       },
       {
-        question: 'How does rural law differ from urban law?',
-        answer: 'Rural law often deals with unique challenges such as land tenure, agricultural subsidies, and environmental conservation, which are less prevalent in urban settings.'
+        question: 'Como o direito rural no Brasil difere das estruturas jurídicas urbanas?',
+        answer: 'O direito rural no Brasil foca em aspectos específicos como reforma agrária, tributação de terras rurais (ITR) e proteções ambientais previstas no Código Florestal, que normalmente não se aplicam às áreas urbanas regidas por códigos municipais e civis.'
       },
       {
-        question: 'What are common legal issues in rural areas?',
-        answer: 'Common issues include land disputes, water rights, agricultural contracts, and compliance with environmental regulations.'
+        question: 'Quais são os desafios jurídicos mais frequentes para proprietários rurais no Brasil?',
+        answer: 'Desafios comuns incluem disputas de divisas, regularização de títulos de propriedade junto ao INCRA, conformidade com leis ambientais (como Áreas de Preservação Permanente) e obtenção de outorga de uso de água para irrigação.'
       },
       {
-        question: 'How can your firm help with rural legal matters?',
-        answer: 'Our firm has extensive experience in rural law and can provide expert advice and representation in all aspects of rural legal issues.'
+        question: 'Como seu escritório pode ajudar na regularização de imóveis rurais?',
+        answer: 'Orientamos os clientes em todo o processo de regularização de imóveis rurais, incluindo a obtenção do Cadastro Ambiental Rural (CAR), regularização de títulos de propriedade e conformidade com as normas federais e estaduais.'
       }
     ]
   },
   {
-    category: 'Services',
+    category: 'Serviços',
     questions: [
       {
-        question: 'What types of legal services do you offer?',
-        answer: 'We offer services in land use and zoning, agricultural law, environmental law, estate planning, and more.'
+        question: 'Que suporte jurídico vocês oferecem para contratos do agronegócio?',
+        answer: 'Elaboramos, revisamos e negociamos contratos do agronegócio, incluindo arrendamentos rurais, contratos de fornecimento e parcerias, garantindo conformidade com as regulamentações agrícolas brasileiras e proteção dos seus interesses.'
       },
       {
-        question: 'Do you provide legal advice for agricultural businesses?',
-        answer: 'Yes, we specialize in advising agricultural businesses on compliance, contracts, and regulatory issues.'
+        question: 'Vocês auxiliam na conformidade ambiental de propriedades rurais?',
+        answer: 'Sim, auxiliamos na conformidade ambiental, incluindo o cumprimento do Código Florestal, obtenção de licenças ambientais e gestão de Reserva Legal e Áreas de Preservação Permanente.'
       },
       {
-        question: 'Can you assist with land disputes?',
-        answer: 'Absolutely, we have a dedicated team for handling land disputes, including boundary issues and ownership conflicts.'
+        question: 'Vocês atuam em casos de disputas fundiárias rurais?',
+        answer: 'Nossa equipe é especializada na resolução de disputas fundiárias rurais, incluindo conflitos de divisas, ações de usucapião e disputas sobre direitos de uso da terra, por meio de negociação ou ação judicial.'
       },
       {
-        question: 'Do you offer estate planning services?',
-        answer: 'Yes, we provide comprehensive estate planning services to help you manage and protect your assets.'
+        question: 'Quais serviços de planejamento sucessório vocês oferecem para famílias rurais?',
+        answer: 'Oferecemos serviços de planejamento sucessório voltados para famílias rurais, incluindo elaboração de testamentos, constituição de trusts e planejamento de sucessão, para garantir a transferência tranquila de propriedades e ativos rurais, minimizando encargos tributários.'
       }
     ]
   },
   {
-    category: 'About Us',
+    category: 'Sobre Nós',
     questions: [
       {
-        question: 'How long has your firm been in operation?',
-        answer: 'Our firm has been serving the rural community for over 20 years, providing trusted legal services.'
+        question: 'Qual é a experiência do escritório em questões jurídicas rurais?',
+        answer: 'Com mais de 20 anos de experiência, nosso escritório já conduziu centenas de casos jurídicos rurais, desde regularização fundiária até disputas complexas do agronegócio, atendendo clientes em todo o Brasil.'
       },
       {
-        question: 'What is your firm\'s mission?',
-        answer: 'Our mission is to provide high-quality legal services to the rural sector, ensuring our clients\' rights and interests are protected.'
+        question: 'Qual é a missão da WBA Advogados?',
+        answer: 'A WBA Advogados é dedicada a oferecer soluções jurídicas especializadas para o setor rural, protegendo os direitos dos nossos clientes e promovendo práticas agrícolas sustentáveis por meio de um atendimento personalizado.'
       },
       {
-        question: 'Who are the key members of your team?',
-        answer: 'Our team consists of experienced attorneys specializing in various aspects of rural law, including [Attorney Names].'
+        question: 'Quem lidera a prática de direito rural do escritório?',
+        answer: 'Nossa prática de direito rural é liderada por Guilherme Medeiros, advogado experiente com ampla expertise em direito agrário brasileiro, apoiado por uma equipe de profissionais jurídicos especializados.'
       },
       {
-        question: 'What sets your firm apart from others?',
-        answer: 'Our deep understanding of rural issues, combined with our commitment to personalized service, sets us apart from other firms.'
+        question: 'O que torna a WBA Advogados única em serviços jurídicos rurais?',
+        answer: 'Nosso escritório combina profundo conhecimento do direito rural brasileiro, uma abordagem centrada no cliente e compromisso com a resolução eficiente de desafios jurídicos complexos, tornando-nos um parceiro confiável para proprietários rurais e empresas do agronegócio.'
       }
     ]
   }
 ];
+
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -104,7 +105,7 @@ const ContactPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
-  const [expanded, setExpanded] = useState(null);
+  const [expandedQuestions, setExpandedQuestions] = useState([]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -149,7 +150,7 @@ const ContactPage = () => {
         setIsSubmitted(false);
       }, 3000);
     } catch (error) {
-      console.error('Error submitting form:', error); // Added for debugging
+      console.error('Error submitting form:', error);
       toast({
         title: "Erro",
         description: "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
@@ -162,18 +163,22 @@ const ContactPage = () => {
   };
 
   const toggleAccordion = (index) => {
-    setExpanded(expanded === index ? null : index);
+    setExpandedQuestions(prev =>
+      prev.includes(index)
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
   };
 
   return (
-    <div className="pt-32 pb-16">
-      <div className="container-custom">
+    <div className="pt-32 pb-16 px-4">
+      <div className="container-custom max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-4">
             Entre em Contato
@@ -184,7 +189,7 @@ const ContactPage = () => {
         </motion.div>
 
         {/* Contact info and form */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20">
           {/* Contact info */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
@@ -224,7 +229,7 @@ const ContactPage = () => {
               
               <div className="mt-12">
                 <h3 className="font-bold mb-4">Horário de Atendimento</h3>
-                <p className="text-rural-beige/80 mb-2">Segunda a Sexta: <br/>8h30 às 12h e <br/>13h30 às 18h</p>
+                <p className="text-rural-beige/80 mb-2">Segunda a Sexta: 8h30 às 12h e 13h30 às 18h</p>
               </div>
             </div>
           </motion.div>
@@ -354,12 +359,12 @@ const ContactPage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="mb-16"
+          className="mb-20"
         >
-          <h2 className="text-2xl font-serif font-bold text-rural-darkgreen mb-6">
+          <h2 className="text-2xl font-serif font-bold text-rural-darkgreen mb-6 text-center">
             Nossa Localização
           </h2>
-          <div className="rounded-2xl overflow-hidden h-[400px] shadow-sm border border-rural-darkbeige/20">
+          <div className="rounded-2xl overflow-hidden h-[400px] shadow-sm border border-rural-darkbeige/20 max-w-5xl mx-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8546716343376!2d-51.2484133239869!3d-30.084669674903388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978a0b6c805c9%3A0xb571b13564864657!2sDiamond%20Tower!5e1!3m2!1spt-BR!2sbr!4v1746749199615!5m2!1spt-BR!2sbr"
               width="100%"
@@ -378,21 +383,21 @@ const ContactPage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="faq-section"
+          className="faq-section max-w-2xl mx-auto mb-20"
         >
-          <div className="title-holder">
+          <div className="title-holder text-center">
             <h2 className="text-3xl font-serif font-bold text-rural-darkgreen mb-4">
               Perguntas Frequentes
             </h2>
             <div className="subtitle-holder">
               <div className="text-rural-darkgreen/80">
-                Encontre respostas para as dúvidas mais comuns sobre nossos serviços e especializações.
+                Encontre respostas detalhadas para dúvidas comuns sobre nossos serviços jurídicos para o setor rural.
               </div>
             </div>
           </div>
-          <div className="faq-grid-holder">
+          <div className="faq-grid-holder mt-8">
             <div className="faq-tab w-tabs">
-              <div className="faq-tab-button-holder w-tab-menu flex flex-col md:flex-row gap-2 md:gap-4 mb-8">
+              <div className="faq-tab-button-holder w-tab-menu flex flex-col md:flex-row gap-2 md:gap-4 mb-8 justify-center">
                 {faqData.map((category, index) => (
                   <button
                     key={index}
@@ -412,10 +417,10 @@ const ContactPage = () => {
                       <div className="faq flex justify-between items-center cursor-pointer" onClick={() => toggleAccordion(index)}>
                         <div className="faq-title text-lg font-bold text-rural-darkgreen">{q.question}</div>
                         <div className="faq-icon-holder">
-                          <ChevronDown className={`w-5 h-5 text-rural-darkgreen transition-transform duration-300 ${expanded === index ? 'transform rotate-180' : ''}`} />
+                          <ChevronDown className={`w-5 h-5 text-rural-darkgreen transition-transform duration-300 ${prev => expandedQuestions.includes(index) ? 'transform rotate-180' : ''}`} />
                         </div>
                       </div>
-                      {expanded === index && (
+                      {expandedQuestions.includes(index) && (
                         <motion.div
                           initial={{ height: 0, opacity: 0 }}
                           animate={{ height: 'auto', opacity: 1 }}

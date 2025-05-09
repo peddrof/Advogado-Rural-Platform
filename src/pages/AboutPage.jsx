@@ -2,7 +2,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, BookOpen, Users, Shield } from 'lucide-react';
-import NewsletterSection from '@/components/NewsletterSection';
 
 const AboutPage = () => {
   const values = [
