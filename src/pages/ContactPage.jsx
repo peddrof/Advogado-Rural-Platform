@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Mail, Send, CheckCircle, ChevronDown } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 import { db } from './firebas';
-import { collection, addDoc, serverTimestamp } from 'firebas/firestore';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
 const faqData = [
   {
