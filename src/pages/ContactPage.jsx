@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Send, CheckCircle } from 'lucide-react';
@@ -85,10 +84,10 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold mb-1">Endereço</h3>
                     <p className="text-rural-beige/80">
-                    Av. Diário de Notícias, 400, <br/>
-                sala 2113, Barra Shopping Sul, <br/>
-                Ed. Diamond Tower, Cristal, <br/>
-                Porto Alegre, RS, 90810-080
+                      Av. Diário de Notícias, 400, <br/>
+                      sala 2113, Barra Shopping Sul, <br/>
+                      Ed. Diamond Tower, Cristal, <br/>
+                      Porto Alegre, RS, 90810-080
                     </p>
                   </div>
                 </div>
@@ -99,7 +98,7 @@ const ContactPage = () => {
                     <h3 className="font-bold mb-1">E-mail</h3>
                     <p className="text-rural-beige/80">
                       <a href="mailto:guilherme.medeiros@wba.adv.br" className="hover:text-rural-beige transition-colors duration-300">
-                      guilherme.medeiros@wba.adv.br
+                        guilherme.medeiros@wba.adv.br
                       </a>
                     </p>
                   </div>
@@ -244,7 +243,16 @@ const ContactPage = () => {
             Nossa Localização
           </h2>
           <div className="rounded-2xl overflow-hidden h-[400px] shadow-sm border border-rural-darkbeige/20">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8546716343376!2d-51.2484133239869!3d-30.084669674903388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978a0b6c805c9%3A0xb571b13564864657!2sDiamond%20Tower!5e1!3m2!1spt-BR!2sbr!4v1746749199615!5m2!1spt-BR!2sbr" width="800px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8546716343376!2d-51.2484133239869!3d-30.084669674903388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978a0b6c805c9%3A0xb571b13564864657!2sDiamond%20Tower!5e1!3m2!1spt-BR!2sbr!4v1746749199615!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Map of Diamond Tower, Porto Alegre"
+            ></iframe>
           </div>
         </motion.div>
 
