@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="pt-36 pb-12 sm:pt-28 sm:pb-16 md:pt-40 md:pb-24">
+    <section className="pt-20 pb-8 sm:pt-24 sm:pb-12 md:pt-32 md:pb-16 overflow-x-hidden">
       <div className="container-custom">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ const HeroSection = () => {
             src="https://iili.io/3etrokQ.md.png"
           />
           
-          <div className="absolute inset-0 z-20 flex flex-col justify-center p-6 sm:p-8 md:p-16">
+          <div className="absolute inset-0 z-20 flex flex-col justify-center p-6 sm:p-8 md:p-12">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
