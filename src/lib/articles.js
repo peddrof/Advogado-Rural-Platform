@@ -8,9 +8,9 @@ export const articles = [
       author: 'Dr. Guilherme Medeiros',
       authorRole: 'Advogado Especialista em Direito Agrário',
       authorPhoto: 'https://iili.io/3vHuR9I.png',
-      date: '2024-07-11',
+      date: '11 de julho de 2024',
       readTime: '10 min',
-      image: 'https://images.unsplash.com/photo-1518572791492-8776f3e0d851',
+      image: 'https://plus.unsplash.com/premium_photo-1663951812897-02ef7a050f3c?q=80&w=1075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       content: `
         <p>O ano de 2023 encerrou de forma desafiadora para o agronegócio brasileiro. Como se não bastasse o ambiente político-institucional controverso e cada vez mais hostil, um velho e conhecido inimigo deu suas caras de forma bastante abrupta: a adversidade climática.</p>
         <p>As localidades mais produtivas do país sofreram intempéries profundas. No Sul, enchentes que destruíram cidades inteiras, e no Cerrado brasileiro, a pior estiagem dos últimos 24 anos, causando prejuízos estratosféricos na economia de diversos municípios, e sendo ainda mais grave para os módulos rurais de pequenas propriedades e da agricultura familiar.</p>
@@ -58,9 +58,9 @@ export const articles = [
       author: 'Dr. Guilherme Medeiros',
       authorRole: 'Advogado Especialista em Direito Agrário',
       authorPhoto: 'https://iili.io/3vHuR9I.png',
-      date: '2024-12-02',
+      date: '2 de dezembro de 2024',
       readTime: '12 min',
-      image: 'https://images.unsplash.com/photo-1580587771525-78b9f0f89f75',
+      image: 'https://images.unsplash.com/photo-1654747219663-3e79740fc5b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       content: `
         <p>Resumo: Este artigo discute a nulidade da cessão de Crédito Rural a particulares não integrantes do Sistema Financeiro Nacional (SFN). A cessão de créditos rurais, regidos pela legislação especial, como a Lei nº 4.829/1965, o Decreto-Lei nº 167/1967 e o Manual de Crédito Rural (MCR), não pode ser equiparada à cessão de créditos mercantis, regulada por normas gerais. Com base no princípio da especialidade, o Crédito Rural deve ter um tratamento jurídico diferenciado, afastando a aplicação da Resolução nº 2.836/2001 do Bacen e as disposições gerais do Código Civil.</p>
         <h2>1. Introdução</h2>
@@ -149,7 +149,7 @@ export const articles = [
       author: 'Dr. Guilherme Medeiros',
       authorRole: 'Advogado Especialista em Direito Agrário',
       authorPhoto: 'https://iili.io/3vHuR9I.png',
-      date: '2024-12-11',
+      date: '11 de dezembro de 2024',
       readTime: '8 min',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
       content: `
@@ -195,9 +195,9 @@ export const articles = [
       author: 'Dr. Guilherme Medeiros',
       authorRole: 'Advogado Especialista em Direito Agrário',
       authorPhoto: 'https://iili.io/3vHuR9I.png',
-      date: '2024-12-11',
+      date: '11 de dezembro de 2024',
       readTime: '15 min',
-      image: 'https://images.unsplash.com/photo-1500595046743-ddf4d3d753fd',
+      image: 'https://images.unsplash.com/photo-1746349772064-48e0726691c7?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       content: `
         <h2>Resumo</h2>
         <p>A Lei nº 15.040/2024 introduziu mudanças significativas no regime jurídico dos contratos de seguro no Brasil, reforçando princípios como boa-fé, transparência e equilíbrio contratual. No setor agropecuário, onde o seguro agrícola desempenha papel central na mitigação de riscos, a nova legislação apresenta desafios e oportunidades. Este artigo analisa as implicações da lei no seguro agrícola e rural, com destaque para sua interação com o direito agrário, a compatibilidade com programas de subvenção como o PSR (Programa de Subvenção ao Prêmio do Seguro Rural) e normas como o Manual de Crédito Rural (MCR). Também aborda questões como judicialização, proteção ao pequeno produtor e a necessidade de regulamentações complementares.</p>
@@ -251,15 +251,15 @@ export const articles = [
     {
     id: 5,
     title: 'Crédito Rural não é subsídio: o Brasil na contramão da segurança alimentar',
-    subtitle: 'Impact of suspended rural financing on food security in Brazil',
+    subtitle: 'Impacto doa suspensão do financiamento rural na segurança alimentar no Brasil',
     slug: 'credito-rural-nao-e-subsidio',
     category: 'Crédito Rural',
     author: 'Dr. Guilherme Medeiros',
     authorRole: 'Advogado Especialista em Direito Agrário',
     authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '2025-02-22',
+    date: '22 de fevereiro de 2025',
     readTime: '4 min',
-    image: 'https://images.unsplash.com/photo-1500595046743-ddf4d3d753fd',
+    image: 'https://images.unsplash.com/photo-1475084124271-aebaf8a67166?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dq=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     content: `
       <p>A recente decisão do Ministério da Fazenda de suspender a contratação de financiamento rural pelo Plano Safra acendeu um alerta vermelho sobre os rumos da economia brasileira. Por meio do Ofício nº 282/2025, apenas o Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), cujas taxas variam entre 3% e 6% ao ano, foi mantido. Já o Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp), com juros de 8% ao ano, e demais linhas de crédito rural a 12% ao ano foram suspensas, restando como alternativa os “recursos livres” do mercado financeiro, que atualmente operam a taxas inacessíveis de até 18% ao ano.</p>
       <p>O argumento oficial para essa medida está fundamentado em questões burocráticas: a não aprovação da Lei de Diretrizes Orçamentárias (LDO) impediria a continuidade dos financiamentos. Embora esse argumento tenha respaldo técnico, há um pano de fundo político que não pode ser ignorado. Dentro da coalizão governista, existem setores que defendem a asfixia do agronegócio sob a justificativa de fortalecer a agricultura familiar. No entanto, essa lógica ignora um princípio econômico fundamental: segurança alimentar não se garante com escassez, mas sim com estímulo à produção.</p>
