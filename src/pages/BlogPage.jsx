@@ -27,10 +27,20 @@ const BlogPage = () => {
     { name: 'Crédito Rural', slug: 'credito-rural' }
   ];
 
+  // Function to normalize category names by removing diacritics
+  const normalizeCategory = (category) => {
+    return category
+      .toLowerCase()
+      .normalize('NFD') // Decompose diacritics (e.g., "é" → "e" + combining mark)
+      .replace(/[\u0300-\u036f]/g, '') // Remove diacritic marks
+      .replace(/\s+/g, '-'); // Replace spaces with hyphens
+  };
+
   const filteredPosts = allPosts.filter(post => {
     const matchesSearch = post.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          post.subtitle.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = activeCategory === 'todos' || post.category.toLowerCase().replace(/\s+/g, '-') === activeCategory;
+                         post.subtitle.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = activeCategory === 'todos' || 
+                           normalizeCategory(post.category) === activeCategory;
     return matchesSearch && matchesCategory;
   });
 
