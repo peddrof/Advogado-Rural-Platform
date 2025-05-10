@@ -545,11 +545,6 @@ const ArticlePage = () => {
           </motion.div>
         </div>
       </div>
-
-      {/* Newsletter section */}
-      <div className="mt-16">
-        <NewsletterSection />
-      </div>
     </div>
   );
 };
