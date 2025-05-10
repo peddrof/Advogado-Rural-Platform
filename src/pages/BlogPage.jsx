@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Filter, Calendar, Clock, ArrowLeft, ArrowRight } from 'lucide-react';
-import { articles } from '..articles.js'; // Import centralized articles
+import { articles } from '../lib/articles'; // Import centralized articles
 
 const BlogPage = () => {
   const location = useLocation();

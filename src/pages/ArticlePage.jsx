@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, WhatsApp, Facebook, Mail, Linkedin, Copy, Check } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
-import { articles } from '..articles.js'; // Import centralized articles 
+import { articles } from '../lib/articles'; // Import centralized articles 
 
 const ArticlePage = () => {
   const { slug } = useParams();
