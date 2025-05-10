@@ -247,5 +247,41 @@ export const articles = [
         <p>Nota do autor: Este artigo foi elaborado por Guilherme das Neves Medeiros, advogado especialista em Direito Agrário, Crédito Rural e Seguro Agrícola, membro do escritório WBA Advogados Associados e autor de artigos jurídicos sobre agronegócio.</p>
       `,
       featured: false
-    }
+    },
+    {
+    id: 5,
+    title: 'Crédito Rural não é subsídio: o Brasil na contramão da segurança alimentar',
+    subtitle: 'Impact of suspended rural financing on food security in Brazil',
+    slug: 'credito-rural-nao-e-subsidio',
+    category: 'Crédito Rural',
+    author: 'Dr. Guilherme Medeiros',
+    authorRole: 'Advogado Especialista em Direito Agrário',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '2025-02-22',
+    readTime: '4 min',
+    image: 'https://images.unsplash.com/photo-1500595046743-ddf4d3d753fd',
+    content: `
+      <p>A recente decisão do Ministério da Fazenda de suspender a contratação de financiamento rural pelo Plano Safra acendeu um alerta vermelho sobre os rumos da economia brasileira. Por meio do Ofício nº 282/2025, apenas o Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), cujas taxas variam entre 3% e 6% ao ano, foi mantido. Já o Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp), com juros de 8% ao ano, e demais linhas de crédito rural a 12% ao ano foram suspensas, restando como alternativa os “recursos livres” do mercado financeiro, que atualmente operam a taxas inacessíveis de até 18% ao ano.</p>
+      <p>O argumento oficial para essa medida está fundamentado em questões burocráticas: a não aprovação da Lei de Diretrizes Orçamentárias (LDO) impediria a continuidade dos financiamentos. Embora esse argumento tenha respaldo técnico, há um pano de fundo político que não pode ser ignorado. Dentro da coalizão governista, existem setores que defendem a asfixia do agronegócio sob a justificativa de fortalecer a agricultura familiar. No entanto, essa lógica ignora um princípio econômico fundamental: segurança alimentar não se garante com escassez, mas sim com estímulo à produção.</p>
+      <p>O financiamento agrícola não pode ser confundido com um subsídio. Ele não consiste na entrega de dinheiro público a produtores sem contrapartida, tampouco representa um privilégio setorial. Pelo contrário, trata-se de um instrumento fundamental para garantir liquidez ao setor produtivo, que precisa lidar com ciclos longos de safra, variações climáticas e oscilações de mercado.</p>
+      <p>A ausência de financiamento adequado reduz a capacidade de investimento do setor, impactando diretamente a produção agrícola. Como consequência, há uma redução na oferta de alimentos, levando ao aumento dos preços e à intensificação da insegurança alimentar. A retirada do crédito rural não apenas prejudica os produtores, mas afeta toda a cadeia produtiva, incluindo consumidores, trabalhadores rurais e a própria economia nacional.</p>
+      <p>Enquanto o Brasil restringe o acesso ao crédito rural, países como Estados Unidos, União Europeia e China adotam políticas opostas, investindo fortemente no setor.</p>
+      <p>Nos Estados Unidos, o Farm Bill é um programa bilionário que garante não apenas crédito acessível, mas também subsídios diretos aos produtores rurais. A União Europeia, por sua vez, mantém a Política Agrícola Comum (PAC), que injeta bilhões de euros no setor produtivo, assegurando competitividade aos seus agricultores. Já a China investe massivamente em tecnologia agrícola e incentivos à produção, garantindo não apenas o abastecimento interno, mas também sua posição de destaque no mercado global.</p>
+      <h2>O Direito Agrário e a Criação do Crédito Rural</h2>
+      <p>O crédito rural está inserido no Direito Agrário, ramo autônomo do direito público que regula as relações jurídicas ligadas à produção agrária. A Lei do Crédito Rural (Lei nº 4.829/1965) surgiu da necessidade de estruturar um sistema de financiamento para o setor agropecuário, garantindo condições para o desenvolvimento da produção de alimentos no Brasil.</p>
+      <p>A criação do crédito rural teve como principais objetivos:</p>
+      <ul>
+        <li>Aumentar a produtividade do setor agropecuário;</li>
+        <li>Garantir a segurança alimentar do país;</li>
+        <li>Fomentar o desenvolvimento econômico no meio rural;</li>
+        <li>Reduzir os impactos das oscilações climáticas na produção agrícola;</li>
+        <li>Assegurar a estabilidade da oferta de alimentos e reduzir a inflação.</li>
+      </ul>
+      <p>O contingenciamento de R$ 4 bilhões anunciado ontem pelo Ministério da Agricultura e Pecuária (MAPA) em nada ajuda um setor que representa mais de 25% do PIB e quase 50% das exportações do Brasil, sendo o principal setor responsável pela estabilidade da balança comercial brasileira.</p>
+      <p>Curiosamente, no mesmo dia em que anunciou a suspensão das contratações de crédito rural, o governo fez um pronunciamento afirmando que não haveria necessidade de cortes de gastos. Um contrassenso gritante: enquanto o setor produtivo é estrangulado com a retirada de financiamento essencial, o discurso oficial sugere estabilidade econômica. Como garantir produção e segurança alimentar sem os meios necessários para tanto? Essa incoerência coloca em xeque as prioridades da gestão e escancara a falta de compromisso com a sustentabilidade do agronegócio brasileiro.</p>
+      <p>Portanto, urge uma revisão dessa política. O crédito rural não é subsídio, mas sim um pilar essencial para garantir segurança alimentar, crescimento econômico e estabilidade do setor agropecuário brasileiro.</p>
+      <p>Guilherme das Neves Medeiros é Especialista em Direito Agrário Aplicado ao Agronegócio, Vice-presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU. Certificado em Crédito Rural pela Febraban – FBB 420</p>
+    `,
+    featured: false
+  }
   ];
