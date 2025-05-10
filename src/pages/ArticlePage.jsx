@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, User, ArrowLeft, WhatsApp, Facebook, Mail, Linkedin, Copy, Check } from 'lucide-react';
+import { Calendar, Clock, User, ArrowLeft, MessageCircle, Facebook, Mail, Linkedin, Copy, Check } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 import { articles } from '../lib/articles'; // Import centralized articles 
 
@@ -180,7 +180,7 @@ const ArticlePage = () => {
                   rel="noopener noreferrer"
                   className="bg-rural-beige hover:bg-rural-darkbeige text-rural-darkgreen p-3 rounded-xl transition-colors duration-300"
                 >
-                  <WhatsApp size={20} />
+                  <MessageCircle size={20} />
                 </a>
                 <a 
                   href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`} 
