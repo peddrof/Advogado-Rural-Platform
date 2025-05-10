@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="pt-24 pb-12 sm:pt-28 sm:pb-16 md:pt-40 md:pb-24">
+    <section className="pt-36 pb-12 sm:pt-28 sm:pb-16 md:pt-40 md:pb-24">
       <div className="container-custom">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

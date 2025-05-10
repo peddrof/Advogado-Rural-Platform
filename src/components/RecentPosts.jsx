@@ -1,57 +1,15 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Calendar, Clock } from 'lucide-react';
+import { articles } from '../lib/articles'; // Import centralized articles
 
 const RecentPosts = () => {
-  const recentPosts = [
-    {
-      id: 1,
-      title: 'Usucapião Rural: Requisitos e Procedimentos',
-      excerpt: 'Entenda como funciona o processo de usucapião em propriedades rurais e quais são os requisitos necessários.',
-      category: 'Direito Agrário',
-      date: '30 de Abril, 2025',
-      readTime: '7 min',
-      slug: 'usucapiao-rural-requisitos'
-    },
-    {
-      id: 2,
-      title: 'CAR: Como Regularizar seu Cadastro Ambiental Rural',
-      excerpt: 'Guia completo sobre o Cadastro Ambiental Rural e os passos para regularizar sua propriedade.',
-      category: 'Direito Ambiental',
-      date: '28 de Abril, 2025',
-      readTime: '9 min',
-      slug: 'car-cadastro-ambiental-rural'
-    },
-    {
-      id: 3,
-      title: 'Sucessão em Propriedades Rurais: Planejamento e Desafios',
-      excerpt: 'Como planejar a sucessão familiar em propriedades rurais e evitar conflitos futuros.',
-      category: 'Direito Sucessório',
-      date: '25 de Abril, 2025',
-      readTime: '8 min',
-      slug: 'sucessao-propriedades-rurais'
-    },
-    {
-      id: 4,
-      title: 'Crédito Rural: Direitos e Obrigações do Produtor',
-      excerpt: 'Conheça os principais aspectos jurídicos relacionados ao crédito rural e como proteger seus direitos.',
-      category: 'Crédito Rural',
-      date: '22 de Abril, 2025',
-      readTime: '6 min',
-      slug: 'credito-rural-direitos-obrigacoes'
-    }
-  ];
+  const recentPosts = [...articles].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 4);
 
   const container = {
     hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
+    show: { opacity: 1, transition: { staggerChildren: 0.1 } }
   };
 
   const item = {
@@ -89,7 +47,8 @@ const RecentPosts = () => {
                 <img  
                   className="w-full h-48 md:h-full object-cover rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none"
                   alt={`Imagem ilustrativa para o artigo: ${post.title}`}
-                 src="https://images.unsplash.com/photo-1617214933572-9cc174b0b36b" />
+                  src={post.image}
+                />
                 <div className="absolute top-3 left-3">
                   <span className="bg-rural-darkgreen text-rural-beige px-3 py-1 rounded-lg text-sm font-medium">
                     {post.category}
@@ -104,7 +63,7 @@ const RecentPosts = () => {
                   </h3>
                 </Link>
                 <p className="text-rural-darkgreen/80 mb-4 flex-grow">
-                  {post.excerpt}
+                  {post.subtitle}
                 </p>
                 <div className="flex items-center justify-between text-sm text-rural-darkgreen/70 mt-auto">
                   <div className="flex items-center">

@@ -1,55 +1,16 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Clock, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { articles } from '../lib/articles'; // Import centralized articles
 
 const FeaturedPosts = () => {
-  const featuredPosts = [
-    {
-      id: 1,
-      title: 'Regularização Fundiária: O que você precisa saber',
-      excerpt: 'Entenda os principais aspectos da regularização fundiária e como ela pode impactar sua propriedade rural.',
-      category: 'Regularização Fundiária',
-      author: 'Dr. Carlos Silva',
-      date: '10 de Maio, 2025',
-      readTime: '8 min',
-      slug: 'regularizacao-fundiaria',
-      featured: true
-    },
-    {
-      id: 2,
-      title: 'Contratos de Arrendamento Rural: Direitos e Deveres',
-      excerpt: 'Conheça os principais pontos que devem constar em um contrato de arrendamento rural para garantir segurança jurídica.',
-      category: 'Contratos Rurais',
-      author: 'Dra. Ana Oliveira',
-      date: '5 de Maio, 2025',
-      readTime: '6 min',
-      slug: 'contratos-arrendamento-rural',
-      featured: false
-    },
-    {
-      id: 3,
-      title: 'Código Florestal: Impactos para o Produtor Rural',
-      excerpt: 'Análise das principais mudanças do Código Florestal e como elas afetam o dia a dia do produtor rural brasileiro.',
-      category: 'Direito Ambiental',
-      author: 'Dr. Paulo Mendes',
-      date: '1 de Maio, 2025',
-      readTime: '10 min',
-      slug: 'codigo-florestal-impactos',
-      featured: false
-    }
-  ];
+  const featuredPosts = articles.filter(article => article.featured);
 
   const container = {
     hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
+    show: { opacity: 1, transition: { staggerChildren: 0.1 } }
   };
 
   const item = {
@@ -109,7 +70,8 @@ const FeaturedPosts = () => {
                 <img  
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   alt={`Imagem ilustrativa para o artigo: ${post.title}`}
-                 src="https://images.unsplash.com/photo-1620853314124-bd5368c25f36" />
+                  src={post.image}
+                />
                 <div className="absolute top-4 left-4">
                   <span className="bg-rural-darkgreen text-rural-beige px-3 py-1 rounded-lg text-sm font-medium">
                     {post.category}
@@ -124,7 +86,7 @@ const FeaturedPosts = () => {
                   </h3>
                 </Link>
                 <p className="text-rural-darkgreen/80 mb-4">
-                  {post.excerpt}
+                  {post.subtitle}
                 </p>
                 <div className="flex items-center justify-between text-sm text-rural-darkgreen/70">
                   <div className="flex items-center">
