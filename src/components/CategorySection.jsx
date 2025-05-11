@@ -8,31 +8,31 @@ const CategorySection = () => {
   const categories = [
     {
       id: 1,
-      title: 'Direito Agrário',
-      description: 'Questões legais relacionadas à posse, uso e exploração da terra.',
+      title: 'Política Agrícola',
+      description: 'Ações do governo para apoiar e organizar o setor agropecuário.',
       icon: '🌾',
-      slug: 'direito-agrario'
+      slug: 'politica-agricola'
     },
     {
       id: 2,
-      title: 'Regularização Fundiária',
-      description: 'Processos para regularizar a situação de imóveis rurais.',
-      icon: '📝',
-      slug: 'regularizacao-fundiaria'
+      title: 'Crédito Rural',
+      description: 'Financiamento com condições especiais para a produção no campo.',
+      icon: '💰',
+      slug: 'credito-rural'
     },
     {
       id: 3,
       title: 'Contratos Rurais',
-      description: 'Arrendamento, parceria, compra e venda de propriedades rurais.',
+      description: 'Acordos legais que regem atividades agropecuárias.',
       icon: '🤝',
       slug: 'contratos-rurais'
     },
     {
       id: 4,
-      title: 'Direito Ambiental',
-      description: 'Legislação ambiental aplicada ao contexto rural.',
-      icon: '🌳',
-      slug: 'direito-ambiental'
+      title: 'Direito Agrário',
+      description: 'Regras que regulam a posse, uso e propriedade da terra rural.',
+      icon: '📝',
+      slug: 'direito-agrario'
     }
   ];
 
