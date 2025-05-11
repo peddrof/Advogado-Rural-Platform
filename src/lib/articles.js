@@ -43,7 +43,7 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Já em relação aos pontos fracos, o Plano Safra 2023/2024 apresenta um aumento nas taxas de juros para algumas linhas de crédito, o que pode tornar o crédito mais caro e dificultar o acesso de algumas categorias de produtores. Além disso, o plano não apresentou muitas mudanças em relação aos anos anteriores no que diz respeito à inovação tecnológica e ao investimento em políticas públicas voltadas para a sustentabilidade e a preservação do meio ambiente – e isso apesar da orientação ambientalista muito enfática do discurso de governo – o que pode ser considerado um ponto negativo em um cenário em que cada vez mais se busca a produção agropecuária sustentável.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Mais do que nunca, é absolutamente necessária a cautela em relação à gestão financeira e ao planejamento estratégico do negócio. É importante manter um controle rigoroso dos custos e das despesas, bem como buscar alternativas para diversificar as fontes de renda e reduzir a dependência do financiamento estatal. Além disso, é fundamental estar atento às condições e aos requisitos exigidos pelos bancos para a concessão de crédito e garantir que a propriedade esteja em conformidade com as normas e regulamentações do setor.</p>
     `,
-    featured: true
+    featured: false
   },
   {
     id: 3,
@@ -159,7 +159,7 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">É imperativo que o governo federal reveja suas prioridades e adote uma abordagem mais equilibrada e sensível às necessidades dos produtores rurais. Investir na reconstrução de infraestrutura é não apenas uma questão de justiça social, mas também uma estratégia econômica inteligente para garantir a resiliência e a competitividade do setor agropecuário brasileiro. Os produtores rurais gaúchos, que contribuem significativamente para a economia nacional, merecem um apoio robusto e eficaz para superar os desafios impostos pelas mudanças climáticas e continuar a alimentar o Brasil e o mundo.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">A decisão de importar arroz em vez de investir na infraestrutura local não é apenas um erro estratégico, mas também uma negligência com aqueles que sustentam a economia agrícola do país. É hora de corrigir este caminho e investir no futuro sustentável do agronegócio brasileiro.</p>
     `,
-    featured: true
+    featured: false
   },
   {
     id: 7,
@@ -209,7 +209,7 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Seguindo estas recomendações, o produtor seguramente terá êxito na renegociação do seu custeio, evitando a contingência da inclusão do seu nome em cadastros restritivos e também perdas patrimoniais, que eventualmente sucedem com produtores por falta de informação ou assessoria jurídica adequada. Em qualquer situação de crise, o diálogo e a serenidade, junto com uma competente juntada de documentos, é indispensável para uma renegociação bem-sucedida.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">*Artigo publicado originalmente no Portal DireitoAgrário.com em 04/01/2024.</p>
     `,
-    featured: false
+    featured: true
   },
   {
     id: 8,
@@ -256,7 +256,7 @@ export const articles = [
         <li style="margin-bottom: 0.5em;">PEREIRA, Lutero de Paiva. Financiamento Rural. 4ª Edição. Curitiba: Juruá Editora, 2023.</li>
       </ul>
     `,
-    featured: false
+    featured: true
   },
   {
     id: 9,
@@ -491,7 +491,7 @@ export const articles = [
     <p style="font-size: 1em; margin-bottom: 1em;">Portanto, urge uma revisão dessa política. O crédito rural não é subsídio, mas sim um pilar essencial para garantir segurança alimentar, crescimento econômico e estabilidade do setor agropecuário brasileiro.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Guilherme das Neves Medeiros é Especialista em Direito Agrário Aplicado ao Agronegócio, Vice-presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU. Certificado em Crédito Rural pela Febraban – FBB 420</p>
   `,
-  featured: true
+  featured: false
 },
 {
   id: 13,
