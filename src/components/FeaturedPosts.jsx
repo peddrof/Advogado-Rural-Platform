@@ -79,16 +79,18 @@ const FeaturedPosts = () => {
                 </div>
               </div>
               
-              <div className="p-6 h-[50%]">
-                <Link to={`/blog/${post.slug}`}>
-                  <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
-                    {post.title}
-                  </h3>
-                </Link>
-                <p className="text-rural-darkgreen/80 mb-4">
-                  {post.subtitle}
-                </p>
-                <div className="flex items-center justify-between text-sm text-rural-darkgreen/70">
+              <div className="p-6 h-[50%] flex flex-col">
+                <div>
+                  <Link to={`/blog/${post.slug}`}>
+                    <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
+                      {post.title}
+                    </h3>
+                  </Link>
+                  <p className="text-rural-darkgreen/80 mb-4">
+                    {post.subtitle}
+                  </p>
+                </div>
+                <div className="flex items-center justify-between text-sm text-rural-darkgreen/70 mt-auto">
                   <div className="flex items-center">
                     <User size={16} className="mr-1" />
                     <span>{post.author}</span>
