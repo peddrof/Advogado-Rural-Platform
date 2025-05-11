@@ -26,24 +26,6 @@ const AboutPage = () => {
     }
   ];
 
-  const team = [
-    {
-      name: 'Autor A',
-      role: 'Especialista em Direito Agrário',
-      bio: 'Contribui com artigos sobre legislação fundiária e regularização de terras.'
-    },
-    {
-      name: 'Autor B',
-      role: 'Especialista em Contratos Rurais',
-      bio: 'Escreve sobre contratos de arrendamento, parceria rural e outras modalidades.'
-    },
-    {
-      name: 'Autor C',
-      role: 'Especialista em Direito Ambiental',
-      bio: 'Aborda temas como licenciamento ambiental e compliance no agronegócio.'
-    }
-  ];
-
   return (
     <div className="pt-32 pb-16">
       <div className="container-custom">
@@ -73,7 +55,7 @@ const AboutPage = () => {
             <img  
               className="w-full h-full object-cover"
               alt="Equipe de advogados do Advogado Rural"
-              src="https://images.unsplash.com/photo-1669619732510-f74abcc5ee75" 
+              src="https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?q=80&w=1024&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             />
           </motion.div>
 
@@ -133,43 +115,6 @@ const AboutPage = () => {
           </div>
         </motion.div>
 
-        {/* Team section */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="mb-20"
-        >
-          <h2 className="text-3xl font-serif font-bold text-rural-darkgreen mb-6 text-center">
-            Nossos Colaboradores
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-            {team.map((member, index) => (
-              <motion.div 
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-rural-darkbeige/20 text-center"
-              >
-                <div className="w-24 h-24 rounded-full bg-rural-green flex items-center justify-center text-rural-beige font-bold text-3xl mx-auto mb-4">
-                  {member.name.split(' ')[0].charAt(0)}
-                  {member.name.split(' ')[1]?.charAt(0)}
-                </div>
-                <h3 className="text-xl font-serif font-bold text-rural-darkgreen mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-rural-green font-medium mb-4">
-                  {member.role}
-                </p>
-                <p className="text-rural-darkgreen/80">
-                  {member.bio}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
         {/* Stats section */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -182,20 +127,20 @@ const AboutPage = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
-              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">5+</p>
+              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">20+</p>
               <p className="text-rural-darkgreen/80">Anos de experiência</p>
             </div>
             <div className="text-center">
-              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">200+</p>
+              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">150+</p>
               <p className="text-rural-darkgreen/80">Artigos publicados</p>
             </div>
             <div className="text-center">
-              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">10k+</p>
-              <p className="text-rural-darkgreen/80">Leitores mensais</p>
+              <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">29k+</p>
+              <p className="text-rural-darkgreen/80">Seguidores nas redes</p>
             </div>
             <div className="text-center">
               <p className="text-4xl md:text-5xl font-serif font-bold text-rural-darkgreen mb-2">27</p>
-              <p className="text-rural-darkgreen/80">Estados atendidos</p>
+              <p className="text-rural-darkgreen/80">Estados e UF atendidos</p>
             </div>
           </div>
         </motion.div>
