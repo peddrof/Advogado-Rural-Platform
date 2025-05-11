@@ -206,10 +206,9 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold mb-1">Endereço</h3>
                     <p className="text-rural-beige/80">
-                      Av. Diário de Notícias, 400, <br/>
-                      sala 2113, Barra Shopping Sul, <br/>
-                      Ed. Diamond Tower, Cristal, <br/>
-                      Porto Alegre, RS, 90810-080
+                      Rua Brandina Mello, 53, <br/>
+                      Centro, São Gabriel, RS, <br/>
+                      97300-432
                     </p>
                   </div>
                 </div>
@@ -219,8 +218,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-bold mb-1">E-mail</h3>
                     <p className="text-rural-beige/80">
-                      <a href="mailto:guilherme.medeiros@wba.adv.br" className="hover:text-rural-beige transition-colors duration-300">
-                        guilherme.medeiros@wba.adv.br
+                      <a href="mailto:guilhermemedeirosadvagro@gmail.com" className="hover:text-rural-beige transition-colors duration-300">
+                      guilhermemedeirosadvagro@gmail.com
                       </a>
                     </p>
                   </div>

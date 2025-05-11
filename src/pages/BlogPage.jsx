@@ -21,9 +21,8 @@ const BlogPage = () => {
     { name: 'Direito Agrário', slug: 'direito-agrario' },
     { name: 'Regularização Fundiária', slug: 'regularizacao-fundiaria' },
     { name: 'Contratos Rurais', slug: 'contratos-rurais' },
-    { name: 'Direito Ambiental', slug: 'direito-ambiental' },
     { name: 'Direito Sucessório', slug: 'direito-sucessorio' },
-    { name: 'Tributação Rural', slug: 'tributacao-rural' },
+    { name: 'Política Agrícola', slug: 'politica-agricola' },
     { name: 'Crédito Rural', slug: 'credito-rural' }
   ];
 

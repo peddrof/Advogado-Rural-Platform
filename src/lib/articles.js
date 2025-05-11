@@ -283,5 +283,144 @@ export const articles = [
       <p>Guilherme das Neves Medeiros é Especialista em Direito Agrário Aplicado ao Agronegócio, Vice-presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU. Certificado em Crédito Rural pela Febraban – FBB 420</p>
     `,
     featured: false
+  },
+  {
+    id: 6,
+    title: 'Subsídios ao Agronegócio Brasileiro: Uma Análise Jurídico-Agrária Comparada',
+    subtitle: 'Uma análise comparativa dos subsídios ao agronegócio brasileiro frente a outros países',
+    slug: 'subsidios-ao-agronegocio-brasileiro-uma-analise-juridico-agraria-comparada',
+    category: 'Crédito Rural',
+    author: 'Guilherme das Neves Medeiros',
+    authorRole: 'Advogado Especialista em Direito Agrário e Direito do Agronegócio',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '15 de maio de 2025',
+    readTime: '8 min',
+    image: 'https://images.unsplash.com/photo-1500595046743-ff476d57b685?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    content: `
+      <p style="font-size: 1em; margin-bottom: 1em;">O agronegócio brasileiro é, indiscutivelmente, um dos motores da economia nacional. Responde por parcela significativa do PIB, da geração de empregos e da balança comercial positiva. Ainda assim, é comum encontrar distorções no debate público sobre o papel do Estado no financiamento e no suporte ao setor. Dentre elas, a mais recorrente é a alegação de que o agro brasileiro seria excessivamente subsidiado. Os dados oficiais, no entanto, apontam em sentido oposto.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Segundo os relatórios da Organização para a Cooperação e Desenvolvimento Econômico (OCDE), o Brasil figura entre os países que menos concedem subsídios diretos ao produtor rural, mesmo ocupando posição de destaque entre os maiores exportadores agrícolas do planeta. O índice conhecido como Producer Support Estimate (PSE), que calcula o percentual da receita bruta dos produtores oriundo de transferências públicas, foi de apenas 1,35% no Brasil em 2020. No mesmo período, o índice foi de 19,3% na União Europeia, 12,1% na China e 11% nos Estados Unidos.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Outro indicador relevante é a Total Support Estimate (TSE), que mede o apoio total do Estado ao setor agropecuário. O Brasil destinou 0,34% de seu orçamento para esse fim, enquanto China, União Europeia e Estados Unidos destinaram, respectivamente, 1,59%, 0,66% e 0,46%. Trata-se, portanto, de um desequilíbrio estrutural no apoio estatal ao agro em nível global.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">No plano normativo interno, a Constituição Federal de 1988, em seu artigo 187, determina que a política agrícola deve ser formulada com base em instrumentos como o crédito rural, o seguro agrícola, a assistência técnica e o preço mínimo. Esses instrumentos são regulamentados pela Lei nº 8.171/1991 (Lei da Política Agrícola), que reconhece a função pública da atividade agropecuária e a necessidade de apoio estatal para sua manutenção em bases sustentáveis.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Contudo, a execução orçamentária dessas diretrizes tem sido tímida, quando comparada aos modelos internacionais. O Plano Safra 2023/2024, por exemplo, ofertou R$ 435,8 bilhões em crédito rural, but apenas R$ 13,6 bilhões foram efetivamente equalizados com juros subsidiados. Destes, R$ 8,5 bilhões foram direcionados exclusivamente ao Pronaf, ou seja, à agricultura familiar.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">No tocante à agricultura empresarial, o produtor brasileiro depende majoritariamente de recursos privados. Cerca de 40% do financiamento é feito por fornecedores de insumos, e apenas 7% por bancos públicos, segundo estudo da Associação Nacional dos Distribuidores de Insumos Agrícolas (ANDAV). Ou seja, o Estado tem papel secundário no custeio da produção agropecuária brasileira.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Essa realidade tem implicações jurídicas relevantes. Se por um lado a Constituição e a Lei da Política Agrícola reconhecem o dever estatal de fomentar a produção rural, na prática a omissão no financiamento e no seguro de safras expõe o produtor a riscos desproporcionais, principalmente frente à concorrência internacional fortemente protegida. Trata-se de uma inversão da função social do crédito rural, que deveria ser instrumento de equilíbrio e justiça agrária, mas hoje depende quase exclusivamente da lógica mercantil.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Portanto, é técnica e juridicamente correto afirmar que o agro brasileiro não é subsidiado em excesso — ao contrário, é um setor subassistido, que opera sob risco, em desvantagem comparada e com enorme capacidade de resiliência e produtividade. A desinformação quanto a isso compromete o debate e obscurece a urgência de uma política agrícola mais assertiva e equilibrada.</p>
+    `,
+    featured: false
+  },
+  {
+    id: 7,
+    title: 'As Perspectivas para o Plano Safra 2025/2026 diante da Alta da Selic e do Cenário Fiscal Restritivo',
+    subtitle: 'Os desafios do crédito rural em um cenário de juros altos e restrições fiscais',
+    slug: 'perspectivas-plano-safra-2025-2026-alta-selic-cenario-fiscal-restritivo',
+    category: 'Política Agrícola',
+    author: 'Guilherme das Neves Medeiros',
+    authorRole: 'Advogado Especialista em Direito Agrário',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '20 de março de 2025',
+    readTime: '10 min',
+    image: 'https://images.unsplash.com/photo-1599507593499-a3f243a3e3ef?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    content: `
+      <p style="font-size: 1em; margin-bottom: 1em;">As discussões iniciais em torno do Plano Safra 2025/2026 escancaram os entraves estruturais da política agrícola brasileira, especialmente no tocante à sustentabilidade orçamentária do crédito rural subsidiado. Embora o Ministério da Agricultura e Pecuária (MAPA) e o Ministério da Fazenda sinalizem a intenção de lançar um plano “recorde”, o recente aumento da taxa Selic para 14,25% ao ano — conforme decisão do Comitê de Política Monetária (Copom) em 19 de março de 2025 — acende um alerta técnico-jurídico: sem reforço orçamentário proporcional, o governo não conseguirá manter, ao mesmo tempo, altos volumes de crédito e taxas de juros acessíveis, como exige a realidade econômica do campo.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Do ponto de vista jurídico-agrarista, o crédito rural transcende sua natureza financeira: trata-se de instrumento de política agrícola, com previsão expressa no art. 187 da Constituição Federal, cuja função é assegurar condições adequadas de produção, comercialização e desenvolvimento do meio rural. A Constituição impõe ao Estado o dever de garantir acesso amplo, contínuo e em condições justas ao crédito rural, sobretudo para os pequenos e médios produtores, conforme também estabelecido no Estatuto da Terra (Lei nº 4.504/1964) e na Lei nº 4.829/1965, que instituiu o crédito rural no Brasil.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Entretanto, o atual cenário fiscal é restritivo. O Projeto de Lei Orçamentária Anual (PLOA) 2025, aprovado pelo Congresso Nacional, manteve o teto de R$ 15,03 bilhões para a equalização das taxas de juros do crédito rural, segundo dados da proposta orçamentária do governo. Isso cria um paradoxo jurídico-financeiro: ou o Plano Safra será volumoso, porém com taxas elevadas e socialmente excludentes; ou terá juros acessíveis, mas com oferta limitada de recursos, descumprindo sua função constitucional de promoção da justiça social no meio rural.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">A consequência jurídica imediata dessa limitação é o risco de descumprimento da função social da política agrícola, tornando-se ineficaz para garantir acesso efetivo ao crédito rural. A elevação da Selic encarece inclusive os programas com taxas equalizadas, já que os bancos exigem compensações maiores para ofertar crédito abaixo do custo de captação. Essa equação pressiona o Tesouro Nacional, que enfrenta limites fiscais rigorosos, definidos pela Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000).</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Especialistas como Guilherme Bastos, da FGV Agro, e José Carlos Vaz, ex-diretor do Banco do Brasil, vêm destacando a necessidade urgente de revisão da matriz de financiamento agropecuário no Brasil. A dependência estrutural do crédito público, sem mecanismos eficazes de mitigação de risco, seguro rural robusto, incentivos fiscais e integração com o mercado privado, torna o modelo atual instável e excludente. Nesse contexto, os pequenos produtores — justamente os que deveriam ser priorizados — são os mais penalizados.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Algumas propostas alternativas estão sendo discutidas, como:</p>
+      <ul style="margin-bottom: 1em; padding-left: 1.5em;">
+        <li style="margin-bottom: 0.5em;">Isenção de IOF para financiamentos agroindustriais;</li>
+        <li style="margin-bottom: 0.5em;">Criação de mecanismos de garantia de primeira perda para fomentar o crédito privado;</li>
+        <li style="margin-bottom: 0.5em;">Ampliação do uso de fundos garantidores e subvenção ao seguro rural.</li>
+      </ul>
+      <p style="font-size: 1em; margin-bottom: 1em;">Essas medidas são juridicamente possíveis e encontram respaldo nos artigos 23 e 24 da Constituição Federal, que tratam da competência comum e concorrente em matéria de desenvolvimento agrícola, bem como no regime de fomento previsto pelo Estatuto da Terra. No entanto, sua implementação depende de regulamentação específica e de vontade política e articulação institucional entre MAPA, Ministério da Fazenda, BNDES, Conselho Monetário Nacional (CMN) e os agentes financeiros.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">O quadro se agrava diante da elevação dos custos de produção, do aumento da inadimplência rural e da persistência dos eventos climáticos extremos — como secas e enchentes — que afetam não apenas a produção agrícola, mas toda a cadeia agroindustrial. Como observou Wolney Arruda, do Banco Plantae, os custos elevados e o risco climático pressionam fortemente a rentabilidade do setor, tornam o crédito menos acessível e aumentam os conflitos jurídicos, especialmente os pedidos de prorrogação e renegociação com base no item 2.6.4 do Manual de Crédito Rural (MCR).</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Em resumo, o Plano Safra 2025/2026 demandará muito mais do que cifras expressivas em anúncios oficiais. Exigirá:</p>
+      <ul style="margin-bottom: 1em; padding-left: 1.5em;">
+        <li style="margin-bottom: 0.5em;">Uma estrutura legal robusta;</li>
+        <li style="margin-bottom: 0.5em;">Planejamento fiscal coerente;</li>
+        <li style="margin-bottom: 0.5em;">Equalização realista e socialmente justa;</li>
+        <li style="margin-bottom: 0.5em;">Integração com garantias modernas e seguros agrícolas eficazes;</li>
+        <li style="margin-bottom: 0.5em;">E, acima de tudo, uma visão agrarista do crédito rural como ferramenta de desenvolvimento nacional.</li>
+      </ul>
+      <p style="font-size: 1em; margin-bottom: 1em;">Sem essas premissas, o Plano corre o risco de ser apenas retórico e de aprofundar as distorções do sistema atual, excluindo justamente quem mais precisa do apoio estatal: o produtor rural que sustenta o Brasil com o suor da terra e o risco do clima.</p>
+      <h3 style="font-size: 1.25em; margin-bottom: 0.75em;">Fontes verificadas:</h3>
+      <ul style="margin-bottom: 1em; padding-left: 1.5em;">
+        <li style="margin-bottom: 0.5em;">Banco Central do Brasil. Nota do Copom sobre a elevação da Selic. Disponível em: https://www.bcb.gov.br/detalhenoticia/20581/nota</li>
+        <li style="margin-bottom: 0.5em;">Ministério da Agricultura e Pecuária. Declarações do ministro Carlos Fávaro sobre prioridades para o Plano Safra 2025/2026. Disponível em: https://www.gov.br/agricultura/pt-br/assuntos/noticias/ministro-carlos-favaro-apresenta-prioridades-do-mapa-para-2025-2026-em-comissao-no-senado</li>
+        <li style="margin-bottom: 0.5em;">Governo do Paraná. Proposta ao Governo Federal de Plano Safra 2025/2026 de R$ 597 bilhões. Disponível em: https://www.aen.pr.gov.br/Noticia/Parana-propoe-ao-governo-federal-Plano-Safra-20252026-de-R-597-bilhoes</li>
+        <li style="margin-bottom: 0.5em;">Constituição da República Federativa do Brasil de 1988.</li>
+        <li style="margin-bottom: 0.5em;">Estatuto da Terra (Lei nº 4.504/1964).</li>
+        <li style="margin-bottom: 0.5em;">Lei nº 4.829/1965 (institui o crédito rural).</li>
+        <li style="margin-bottom: 0.5em;">Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal).</li>
+        <li style="margin-bottom: 0.5em;">Manual de Crédito Rural – BACEN. Item 2.6.4: Prorrogação e renegociação de operações de crédito rural.</li>
+      </ul>
+    `,
+    featured: false
+  },
+  {
+    id: 8,
+    title: 'Maior Plano Safra, maior cautela',
+    subtitle: 'Análise do Novo Plano Safra 2023/2024 e recomendações aos produtores',
+    slug: 'maior-plano-safra-maior-cautela',
+    category: 'Política Agrícola',
+    author: 'Guilherme Medeiros',
+    authorRole: 'Advogado Agrarista e Professor de Direito Agrário',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '16 de junho de 2023',
+    readTime: '6 min',
+    image: 'https://images.unsplash.com/photo-1503614472-8c93ca36a6a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    content: `
+      <p style="font-size: 1em; margin-bottom: 1em;">Apesar de ainda não ter sido oficialmente lançado, o Novo Plano Safra já tem um desenho conhecido através de informações preliminares trazidas recentemente em declarações do Ministro do Desenvolvimento Agrário, Paulo Teixeira, e do ministro da Agricultura, Carlos Fávaro. Conforme este desenho prévio, o Novo Plano Safra será composto por cinco componentes principais, sendo o primeiro deles a disponibilização de R$ 135 bilhões em crédito para produtores rurais, com juros mais baixos e prazos mais longos para pagamento.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">O segundo componente é a ampliação do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), que passará a contar com R$ 39,3 bilhões em recursos. Além disso, o Pronaf Mulher terá R$ 3,4 bilhões em crédito específico para as agricultoras familiares.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">O terceiro componente é a expansão do Programa de Garantia da Atividade Agropecuária (Proagro), que tem como objetivo proteger os produtores rurais contra as perdas decorrentes de eventos climáticos adversos. O Proagro terá R$ 1,5 bilhão em recursos para a safra 2023/2024.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">O quarto componente do Novo Plano Safra é o Programa de Subvenção ao Prêmio do Seguro Rural (PSR), que terá R$ 1,5 bilhão em recursos para o próximo ciclo agrícola. O programa tem como objetivo incentivar a contratação de seguros pelos produtores rurais, reduzindo os riscos da atividade agrícola.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Por fim, o quinto componente é o Programa de Apoio à Inovação Tecnológica na Produção Agropecuária (Inovagro), que terá R$ 3,5 bilhões em recursos. O programa tem como objetivo incentivar a adoção de tecnologias modernas no campo.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Não resta muita dúvida que o Plano Safra 2023/2024 apresenta um aumento significativo no volume de recursos disponíveis em relação aos anos anteriores, tendo um total de R$ 251,2 bilhões para financiamento da safra. Além disso, o plano apresenta uma redução nas taxas de juros para algumas linhas de crédito e um aumento no limite de financiamento para produtores, especialmente da agricultura familiar, o que pode incentivar ainda mais o investimento no setor agrícola.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Já em relação aos pontos fracos, o Plano Safra 2023/2024 apresenta um aumento nas taxas de juros para algumas linhas de crédito, o que pode tornar o crédito mais caro e dificultar o acesso de algumas categorias de produtores. Além disso, o plano não apresentou muitas mudanças em relação aos anos anteriores no que diz respeito à inovação tecnológica e ao investimento em políticas públicas voltadas para a sustentabilidade e a preservação do meio ambiente – e isso apesar da orientação ambientalista muito enfática do discurso de governo – o que pode ser considerado um ponto negativo em um cenário em que cada vez mais se busca a produção agropecuária sustentável.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Mais do que nunca, é absolutamente necessária a cautela em relação à gestão financeira e ao planejamento estratégico do negócio. É importante manter um controle rigoroso dos custos e das despesas, bem como buscar alternativas para diversificar as fontes de renda e reduzir a dependência do financiamento estatal. Além disso, é fundamental estar atento às condições e aos requisitos exigidos pelos bancos para a concessão de crédito e garantir que a propriedade esteja em conformidade com as normas e regulamentações do setor.</p>
+    `,
+    featured: false
+  },
+  {
+    id: 9,
+    title: 'O novo Plano Safra: observações para o produtor rural',
+    subtitle: 'Impactos e desafios do Plano Safra 2023/2024 para produtores rurais',
+    slug: 'novo-plano-safra-observacoes-para-o-produtor-rural',
+    category: 'Política Agrícola',
+    author: 'Guilherme Medeiros',
+    authorRole: 'Advogado Agrarista e Professor de Direito Agrário',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '3 de julho de 2023',
+    readTime: '7 min',
+    image: 'https://images.unsplash.com/photo-1504279579154-5a243f8eb78f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    content: `
+      <p style="font-size: 1em; margin-bottom: 1em;">No dia 27 de junho, o Governo Federal apresentou o Plano Safra da Agricultura Empresarial, voltado para produtores rurais de médio e grande porte, e apenas no dia seguinte foi anunciado o Pronaf (Programa Nacional da Agricultura Familiar). O fato de os dois anúncios terem sido feitos em datas separadas, envolvendo ministérios e participantes distintos, sugere que o governo adota uma abordagem específica em relação à produção advinda de pequenas propriedades. Importa que essa abordagem não contribua para uma falsa dicotomia entre agricultura empresarial e familiar, que devem ser vistos como setores complementares na expansão da produção rural brasileira, e não como adversários.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Quanto ao Plano Safra da Agricultura Empresarial, os valores realmente são impressionantes. Todos os programas principais (Moderagro, Agricultura de Baixo Carbono, PCA, Inovação e, principalmente, o Pronamp) receberam um aumento de recursos em comparação com o Plano Safra do ano anterior, exceto o Moderfrota, que teve uma redução de 10,16 bilhões para 9,49 bilhões este ano. Os valores para custeio (R$ 272,12 bilhões) e investimento (R$ 92,10 bilhões) também superaram o último plano safra da gestão do governo anterior.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">No entanto, é importante considerar o crédito rural em duas perspectivas: uma relacionada aos recursos livres e outra aos recursos equalizados, que são financiamentos do governo federal com juros subsidiados. Em termos consistentes de ampliação dos recursos com juros controlados, o Plano Safra de 2023/24, embora tenha um aumento de cerca de 27% em relação ao ano passado, não evoluiu de forma apropriada. A maior parte do dinheiro disponível está concentrada nos recursos livres, where as taxas de juros podem chegar a 17% ou 18%, tornando o crédito oficial muito oneroso para o produtor. Embora haja mais recursos disponíveis, eles são mais caros para a produção.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Com base em minha longa experiência no campo do Direito Agrário, observo com preocupação que a questão central do financiamento da produção rural, seja empresarial ou familiar, ainda não foi devidamente enfrentada. Ao priorizar volumes de recursos livres, o governo aparenta atender às demandas do setor financeiro, disponibilizando mais recursos com taxas de juros mais elevadas. No entanto, com o crescimento da economia ainda tímido e lento, é possível que ocorra uma redução nos negócios relacionados ao Plano Safra, desagradando tanto produtores quanto instituições de crédito.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Aqui, preciso fazer uma ponderação um pouco mais incisiva, porque penso que a subvenção do seguro agrícola deveria ser a política agrícola número um do Brasil para a produção rural, independentemente da ideologia do governo. Especialmente porque o agronegócio, como indústria a céu aberto, está mais sujeito às influências externas do que qualquer outra cadeia produtiva. Plantar arroz, soja ou criar gado não é o mesmo que fabricar refrigerante. As alterações climáticas tem produzido estiagens severas e consecutivas, sobretudo nos Estados do Sul, onde se concentra uma parcela expressiva da produção nacional, afetando a vida e a rentabilidade de milhares de produtores. Além disso, há uma forte insegurança nesta política, que a cada mandato produz uma fórmula diferente de seguro agrícola, e não um único programa confiável e perene que fosse do Estado Brasileiro, e não de governos. O subsídio à produção agrícola é uma garantia para a segurança alimentar da população brasileira em caso de problemas futuros no mercado internacional, e um direito para a subsistência e sobrevida financeira do produtor atingido por intempéries climáticas ou desastres naturais.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Por fim, o presente Plano Safra, assim como os mais recentes, aponta para uma questão recorrente: cada vez mais, os produtores brasileiros precisam buscar alternativas de financiamento privado para não ficarem restritos em suas opções de fomento à atividade no futuro.</p>
+    `,
+    featured: false
+  },
+  {
+    id: 10,
+    title: 'A Regra do Jogo: As Mudanças no MCR e o Produtor Rural',
+    subtitle: 'Impactos das Resoluções 5087, 5092 e 5093 no acesso ao crédito rural',
+    slug: 'regra-do-jogo-mudancas-no-mcr-e-o-produtor-rural',
+    category: 'Crédito Rural',
+    author: 'Guilherme das Neves Medeiros',
+    authorRole: 'Advogado e Professor de Direito Agrário',
+    authorPhoto: 'https://iili.io/3vHuR9I.png',
+    date: '14 de agosto de 2023',
+    readTime: '10 min',
+    image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    content: `
+      <p style="font-size: 1em; margin-bottom: 1em;">Recentemente, o Governo Federal promoveu ajustes significativos no acesso aos principais financiamentos agrícolas por meio de mudanças no Manual de Crédito Rural (MCR), mediante as Resoluções 5087, 5092 e 5093 do Conselho Monetário Nacional (CMN). Essas resoluções trazem modificações específicas que podem impactar o acesso ao crédito rural de forma mais direta, sobretudo para produtores que buscam financiamento através do Fundo de Terras e da Reforma Agrária ou que desejam adquirir máquinas e implementos agrícolas. Este artigo analisa as principais mudanças propostas nas Resoluções 5087, 5092 e 5093 e explora suas implicações para o produtor rural, a fim de compreender se tais alterações tornam o acesso ao crédito rural mais fácil e barato ou se poderá se tornar mais caro para o setor.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Uma das principais mudanças promovidas pela Resolução 5087 refere-se ao acesso ao Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp), operacionalizado pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES). O limite de renda bruta para enquadramento no programa foi elevado de R$ 2,4 milhões para R$ 3 milhões, o que aparentemente ampliaria o leque de produtores elegíveis para o Pronamp. Entretanto, um requisito adicional estabelecido pela resolução é que, para acessar o Pronamp, o candidato ao financiamento precisa ter 80% de sua renda bruta anual proveniente da atividade agropecuária. Essa medida exclui médios produtores cuja maior parte da renda advém de outras profissões, como médicos, advogados ou engenheiros, impossibilitando-os de acessar as linhas de crédito do programa, o que pode obstaculizar um considerável contingente de produtores rurais para o acesso a este programa, encarecendo o crédito rural na prática, na medida em que os obriga a buscar linhas de crédito com taxas de juros mais elevadas.</p>
+      <p style="font-size: 1em; margin-bottom: 1em;">Outra mudança relevante diz respeito às regras para emissão de recursos captados através de LCAs. De acordo com os novos termos, foi aumentada a exigibilidade de 35% para 50% de aplicaçãoiễn
+
+    `,
+    featured: false
   }
   ];

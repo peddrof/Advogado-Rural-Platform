@@ -135,16 +135,15 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 flex-shrink-0 text-rural-beige/80" />
                 <span className="text-rural-beige/80">
-                  Av. Diário de Notícias, 400, <br/>
-                  sala 2113, Barra Shopping Sul, <br/>
-                  Ed. Diamond Tower, Cristal, <br/>
-                  Porto Alegre, RS, 90810-080
+                Rua Brandina Mello, 53, <br/>
+                      Centro, São Gabriel, RS, <br/>
+                      97300-432
                 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-rural-beige/80" />
-                <a href="mailto:guilherme.medeiros@wba.adv.br" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  guilherme.medeiros@wba.adv.br
+                <a href="mailto:guilhermemedeirosadvagro@gmail.com" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+                guilhermemedeirosadvagro@gmail.com
                 </a>
               </li>
             </ul>
@@ -153,7 +152,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-rural-green/30 mt-12 pt-8 text-center text-rural-beige/60">
-          <p>© {currentYear} Advogado Rural. Todos os direitos reservados.</p>
+          <p>© {currentYear} Advogado Rural. Todos os direitos reservados. CNPJ 44.523.375/0001-01</p>
         </div>
       </div>
     </footer>
