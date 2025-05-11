@@ -222,7 +222,7 @@ export const articles = [
     authorPhoto: 'https://iili.io/3vHuR9I.png',
     date: '23 de setembro de 2024',
     readTime: '12 min',
-    image: 'https://images.unsplash.com/photo-1459257831348-f0cdd359235f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    image: 'https://images.unsplash.com/photo-1714552820887-61d4e2061554?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJ1cmFsJTIwZmluYW5jZXxlbnwwfHwwfHx8Mg%3D%3D',
     content: `
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">Introdução</h2>
       <p style="font-size: 1em; margin-bottom: 1em;">O crédito rural no Brasil é fundamental para o desenvolvimento do agronegócio, sendo regido por um arcabouço jurídico específico que visa garantir condições adequadas de financiamento para produtores rurais. O Decreto-Lei nº 167/67, que regulamenta a emissão de títulos de crédito rural, como a Cédula Rural Pignoratícia e a Cédula Rural Hipotecária, é um dos principais instrumentos legais nesse contexto. Aliado a isso, o Manual de Crédito Rural (MCR) estabelece diretrizes e normativas para o financiamento rural, incluindo mecanismos para prorrogação de contratos em situações de calamidade ou dificuldades financeiras.</p>
