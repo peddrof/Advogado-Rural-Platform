@@ -54,7 +54,7 @@ const FeaturedPosts = () => {
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"
         >
-          {featuredPosts.map((post, index) => (
+          {featuredPosts.map((post) => (
             <motion.article 
               key={post.id} 
               variants={item}
@@ -65,10 +65,10 @@ const FeaturedPosts = () => {
             >
               <div className={cn(
                 "relative overflow-hidden",
-                post.featured ? "lg:h-[50%]" : "h-52"
+                post.featured ? "h-96" : "h-96"
               )}>
                 <img  
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 rounded-t-2xl"
                   alt={`Imagem ilustrativa para o artigo: ${post.title}`}
                   src={post.image}
                 />
@@ -79,7 +79,7 @@ const FeaturedPosts = () => {
                 </div>
               </div>
               
-              <div className="p-6 lg:h-[50%]">
+              <div className="p-6 h-[50%]">
                 <Link to={`/blog/${post.slug}`}>
                   <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
                     {post.title}
