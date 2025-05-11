@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, BookOpen, Users, Shield } from 'lucide-react';
@@ -23,25 +22,25 @@ const AboutPage = () => {
     {
       icon: <Award className="w-10 h-10 text-rural-beige" />,
       title: 'Excelência',
-      description: 'Buscamos constantemente aprimorar nosso conteúdo e serviços para atender às necessidades do setor rural.'
+      description: 'Buscamos constantemente aprimorar nosso conteúdo para atender às necessidades do setor rural.'
     }
   ];
 
   const team = [
     {
-      name: 'Dr. Carlos Silva',
-      role: 'Advogado Especialista em Direito Agrário',
-      bio: 'Formado pela USP com mais de 15 anos de experiência em questões jurídicas relacionadas ao setor rural.'
+      name: 'Autor A',
+      role: 'Especialista em Direito Agrário',
+      bio: 'Contribui com artigos sobre legislação fundiária e regularização de terras.'
     },
     {
-      name: 'Dra. Ana Oliveira',
-      role: 'Advogada Especialista em Contratos Rurais',
-      bio: 'Mestre em Direito Agrário pela UFMG, com vasta experiência na elaboração e análise de contratos para o agronegócio.'
+      name: 'Autor B',
+      role: 'Especialista em Contratos Rurais',
+      bio: 'Escreve sobre contratos de arrendamento, parceria rural e outras modalidades.'
     },
     {
-      name: 'Dr. Paulo Mendes',
-      role: 'Advogado Especialista em Direito Ambiental',
-      bio: 'Especialista em Direito Ambiental com foco em regularização ambiental de propriedades rurais.'
+      name: 'Autor C',
+      role: 'Especialista em Direito Ambiental',
+      bio: 'Aborda temas como licenciamento ambiental e compliance no agronegócio.'
     }
   ];
 
@@ -59,7 +58,7 @@ const AboutPage = () => {
             Sobre o Advogado Rural
           </h1>
           <p className="text-rural-darkgreen/80 max-w-2xl mx-auto">
-            Conheça nossa missão de fornecer assessoria jurídica especializada para o homem do campo.
+            Conheça nossa missão de fornecer informações jurídicas especializadas para o homem do campo e profissionais do agronegócio.
           </p>
         </motion.div>
 
@@ -74,7 +73,8 @@ const AboutPage = () => {
             <img  
               className="w-full h-full object-cover"
               alt="Equipe de advogados do Advogado Rural"
-             src="https://images.unsplash.com/photo-1669619732510-f74abcc5ee75" />
+              src="https://images.unsplash.com/photo-1669619732510-f74abcc5ee75" 
+            />
           </motion.div>
 
           <motion.div 
@@ -88,13 +88,13 @@ const AboutPage = () => {
             </h2>
             <div className="space-y-4 text-rural-darkgreen/80">
               <p>
-                O Advogado Rural nasceu da percepção de que o setor rural brasileiro, apesar de sua importância econômica e social, muitas vezes carece de informações jurídicas especializadas e acessíveis.
+                O Advogado Rural foi criado com o propósito de compartilhar conhecimento jurídico especializado em direito rural e agronegócio, atendendo à necessidade de informações acessíveis e confiáveis para o setor.
               </p>
               <p>
-                Fundado em 2018 por um grupo de advogados apaixonados pelo direito agrário e pelo campo brasileiro, o blog rapidamente se tornou uma referência para produtores rurais, empresários do agronegócio e profissionais que atuam no setor.
+                Desde 2018, nossa plataforma se dedica a publicar artigos e textos que abordam temas jurídicos relevantes para produtores rurais, empresários do agronegócio e profissionais da área, ajudando-os a compreender melhor seus direitos e deveres.
               </p>
               <p>
-                Nossa missão é democratizar o acesso à informação jurídica de qualidade, ajudando o homem do campo a conhecer seus direitos e deveres, tomar decisões mais seguras e enfrentar os desafios jurídicos do dia a dia rural com confiança.
+                Nosso objetivo é contribuir para o fortalecimento do setor rural brasileiro, oferecendo conteúdo de qualidade que auxilie na tomada de decisões e no enfrentamento dos desafios jurídicos do dia a dia.
               </p>
             </div>
           </motion.div>
@@ -141,7 +141,7 @@ const AboutPage = () => {
           className="mb-20"
         >
           <h2 className="text-3xl font-serif font-bold text-rural-darkgreen mb-6 text-center">
-            Nossa Equipe
+            Nossos Colaboradores
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             {team.map((member, index) => (
