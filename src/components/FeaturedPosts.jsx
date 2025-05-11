@@ -52,7 +52,7 @@ const FeaturedPosts = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"
         >
           {featuredPosts.map((post, index) => (
             <motion.article 
@@ -60,12 +60,12 @@ const FeaturedPosts = () => {
               variants={item}
               className={cn(
                 "card group transition-all duration-300 hover:shadow-lg",
-                post.featured && "lg:col-span-3 lg:grid lg:grid-cols-1"
+                post.featured && "lg:grid lg:grid-cols-1"
               )}
             >
               <div className={cn(
                 "relative overflow-hidden",
-                post.featured && index === 0 ? "lg:h-96" : post.featured ? "lg:h-full" : "h-52"
+                post.featured ? "lg:h-[50%]" : "h-52"
               )}>
                 <img  
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -79,7 +79,7 @@ const FeaturedPosts = () => {
                 </div>
               </div>
               
-              <div className="p-6">
+              <div className="p-6 lg:h-[50%]">
                 <Link to={`/blog/${post.slug}`}>
                   <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
                     {post.title}
