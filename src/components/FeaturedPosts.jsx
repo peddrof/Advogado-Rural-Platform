@@ -54,18 +54,18 @@ const FeaturedPosts = () => {
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          {featuredPosts.map((post) => (
+          {featuredPosts.map((post, index) => (
             <motion.article 
               key={post.id} 
               variants={item}
               className={cn(
                 "card group transition-all duration-300 hover:shadow-lg",
-                post.featured && "lg:col-span-3 lg:grid lg:grid-cols-2"
+                post.featured && "lg:col-span-3 lg:grid lg:grid-cols-1"
               )}
             >
               <div className={cn(
                 "relative overflow-hidden",
-                post.featured ? "lg:h-full" : "h-52"
+                post.featured && index === 0 ? "lg:h-96" : post.featured ? "lg:h-full" : "h-52"
               )}>
                 <img  
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

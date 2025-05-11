@@ -100,13 +100,13 @@ const Footer = () => {
             <h3 className="text-xl font-serif font-bold">Categorias</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/blog?categoria=direito-agrario" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  Direito Agrário
+                <Link to="/blog?categoria=politica-agricola" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+                  Política Agrícola
                 </Link>
               </li>
               <li>
-                <Link to="/blog?categoria=regularizacao-fundiaria" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  Regularização Fundiária
+                <Link to="/blog?categoria=credito-rural" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+                  Crédito Rural
                 </Link>
               </li>
               <li>
@@ -115,8 +115,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/blog?categoria=direito-ambiental" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
-                  Direito Ambiental
+                <Link to="/blog?categoria=direito-agrario" className="text-rural-beige/80 hover:text-rural-beige transition-colors duration-300">
+                Direito Agrário
                 </Link>
               </li>
             </ul>
