@@ -364,7 +364,7 @@ const ContactPage = () => {
             Nossa Localização
           </h2>
           <div className="rounded-2xl overflow-hidden h-[400px] shadow-sm border border-rural-darkbeige/20 max-w-5xl mx-auto">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.2349176341195!2d-54.321670723977995!3d-30.344272874774013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95014f1c0382ac0b%3A0xc1906b83eb2d1df4!2sR.%20Brandina%20Melo%2C%2053%20-%20Centro%2C%20S%C3%A3o%20Gabriel%20-%20RS%2C%2097300-432!5e0!3m2!1spt-BR!2sbr!4v1747005981167!5m2!1spt-BR!2sbr" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.2349176341195!2d-54.321670723977995!3d-30.344272874774013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95014f1c0382ac0b%3A0xc1906b83eb2d1df4!2sR.%20Brandina%20Melo%2C%2053%20-%20Centro%2C%20S%C3%A3o%20Gabriel%20-%20RS%2C%2097300-432!5e0!3m2!1spt-BR!2sbr!4v1747005981167!5m2!1spt-BR!2sbr" width="1000vh" height="400vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </motion.div>
 
