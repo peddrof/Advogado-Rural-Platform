@@ -14,7 +14,7 @@ const BlogPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  const allPosts = articles; // Use articles from articles.js
+  const allPosts = [...articles].sort((a, b) => b.id - a.id); // Use sorted articles
 
   const categories = [
     { name: 'Todos', slug: 'todos' },
