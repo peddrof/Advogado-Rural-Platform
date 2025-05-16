@@ -5,8 +5,7 @@ import { Calendar, Clock } from 'lucide-react';
 import { articles } from '../lib/articles'; // Import centralized articles
 
 const RecentPosts = () => {
-  const recentPosts = [...articles].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 4);
-
+  const recentPosts = [...articles].sort((a, b) => b.id - a.id).slice(0, 4);
   const container = {
     hidden: { opacity: 0 },
     show: { opacity: 1, transition: { staggerChildren: 0.1 } }
