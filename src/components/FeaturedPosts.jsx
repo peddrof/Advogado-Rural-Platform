@@ -67,11 +67,13 @@ const FeaturedPosts = () => {
                 "relative overflow-hidden",
                 post.featured ? "h-96" : "h-96"
               )}>
-                <img  
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 rounded-t-2xl"
-                  alt={`Imagem ilustrativa para o artigo: ${post.title}`}
-                  src={post.image}
-                />
+                <Link to={`/blog/${post.slug}`}>
+                  <img  
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 rounded-t-2xl"
+                    alt={`Imagem ilustrativa para o artigo: ${post.title}`}
+                    src={post.image}
+                  />
+                </Link>
                 <div className="absolute top-4 left-4">
                   <span className="bg-rural-darkgreen text-rural-beige px-3 py-1 rounded-lg text-sm font-medium">
                     {post.category}
@@ -79,15 +81,17 @@ const FeaturedPosts = () => {
                 </div>
               </div>
               
-              <div className="p-6 h-[50%] flex flex-col">
-                <Link to={`/blog/${post.slug}`}>
-                  <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
-                    {post.title}
-                  </h3>
-                </Link>
-                <p className="text-rural-darkgreen/80 mb-4 flex-grow">
-                  {post.subtitle}
-                </p>
+              <div className="p-6 h-[50%] flex flex-col justify-between">
+                <div>
+                  <Link to={`/blog/${post.slug}`}>
+                    <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
+                      {post.title}
+                    </h3>
+                  </Link>
+                  <p className="text-rural-darkgreen/80 mb-4">
+                    {post.subtitle}
+                  </p>
+                </div>
                 <div className="flex items-center justify-between text-sm text-rural-darkgreen/70">
                   <div className="flex items-center">
                     <User size={16} className="mr-1" />

@@ -43,11 +43,13 @@ const RecentPosts = () => {
               className="card flex flex-col md:flex-row group"
             >
               <div className="md:w-1/3 relative">
-                <img  
-                  className="w-full h-48 md:h-full object-cover rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none"
-                  alt={`Imagem ilustrativa para o artigo: ${post.title}`}
-                  src={post.image}
-                />
+                <Link to={`/blog/${post.slug}`}>
+                  <img  
+                    className="w-full h-48 md:h-full object-cover rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none"
+                    alt={`Imagem ilustrativa para o artigo: ${post.title}`}
+                    src={post.image}
+                  />
+                </Link>
                 <div className="absolute top-3 left-3">
                   <span className="bg-rural-darkgreen text-rural-beige px-3 py-1 rounded-lg text-sm font-medium">
                     {post.category}
