@@ -81,7 +81,7 @@ const FeaturedPosts = () => {
                 </div>
               </div>
               
-              <div className="p-6 h-[50%] flex flex-col justify-between">
+              <div className="p-6 flex flex-col justify-between">
                 <div>
                   <Link to={`/blog/${post.slug}`}>
                     <h3 className="text-xl md:text-2xl font-serif font-bold mb-3 group-hover:text-rural-green transition-colors duration-300">
