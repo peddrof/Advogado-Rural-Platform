@@ -565,5 +565,33 @@ export const articles = [
     <p style="font-size: 1em; margin-bottom: 1em;">Portanto, é técnica e juridicamente correto afirmar que o agro brasileiro não é subsidiado em excesso — ao contrário, é um setor subassistido, que opera sob risco, em desvantagem comparada e com enorme capacidade de resiliência e produtividade. A desinformação quanto a isso compromete o debate e obscurece a urgência de uma política agrícola mais assertiva e equilibrada.</p>
   `,
   featured: false
+},
+{
+  id: 15,
+  title: 'Resolução CMN nº 5.216/2025: Avanço Técnico no Crédito Rural, mas Insuficiente Diante da Realidade do Produtor Endividado',
+  subtitle: 'Análise da nova resolução do CMN e sua limitação frente à crise de endividamento dos produtores rurais',
+  slug: 'resolucao-cmn-5216-2025-avanco-tecnico-credito-rural-insuficiente-produtor-endividado',
+  category: 'Crédito Rural',
+  author: 'Dr. Guilherme Medeiros',
+  authorRole: 'Advogado Especialista em Direito Agrário e Crédito Rural',
+  authorPhoto: 'https://iili.io/3vHuR9I.png',
+  date: '22 de maio de 2025',
+  readTime: '10 min',
+  image: 'https://images.unsplash.com/photo-1567510534272-07e0f621b6d3?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  content: `
+    <p style="font-size: 1em; margin-bottom: 1em;">No dia 22 de maio de 2025, o Conselho Monetário Nacional (CMN) publicou a Resolução CMN nº 5.216/2025, promovendo alterações significativas no Manual de Crédito Rural (MCR), com foco nos capítulos 6-2 (recursos obrigatórios), 6-4 (poupança rural) e 6-7 (letras de crédito do agronegócio – LCA). A norma visa aumentar a obrigação das instituições financeiras, incluindo cooperativas de crédito, em direcionar recursos para o crédito rural, em um esforço para fortalecer o financiamento do setor agropecuário.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;">Apesar de representar um avanço técnico, a resolução não aborda a crise estrutural de acesso ao crédito enfrentada por milhares de produtores rurais brasileiros, especialmente aqueles impactados por catástrofes climáticas e em situação de superendividamento. A seguir, analisamos as principais mudanças e suas limitações.</p>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin: 1em 0;">Principais Alterações Normativas</h2>
+    <p style="font-size: 1em; margin-bottom: 1em;"><strong>MCR 6-2 – Recursos Obrigatórios:</strong> A exigibilidade dos depósitos à vista foi elevada de 25% para 31,5%. Cooperativas de crédito agora também estão obrigadas a cumprir essa exigibilidade, com um cronograma escalonado: 6% em 2025/2026, 13% em 2026/2027, 22% em 2027/2028 e 31,5% a partir de julho de 2028. A subexigibilidade do PRONAMP permanece em 50%, com até 10% para operações de investimento, e do PRONAF em 35%, exclusivamente para custeio.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;"><strong>MCR 6-4 – Poupança Rural:</strong> A exigência de aplicação de 70% da média dos depósitos da poupança rural em operações de crédito rural foi mantida, sem alterações significativas.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;"><strong>MCR 6-7 – Letra de Crédito do Agronegócio (LCA):</strong> A exigência de destinação mínima de recursos foi restabelecida em 60%, revertendo a redução da Resolução 5.210/2025. Cooperativas de crédito agora se submetem às mesmas obrigações, com apuração consolidada da aplicação.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;">Essas mudanças demonstram um esforço do CMN para aumentar a disponibilidade de recursos para o crédito rural, mas não garantem que esses recursos cheguem aos produtores que mais precisam.</p>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin: 1em 0;">Limitações da Resolução</h2>
+    <p style="font-size: 1em; margin-bottom: 1em;">Embora a Resolução CMN nº 5.216/2025 seja um avanço regulatório, ela não resolve o problema central do setor: a falta de acesso ao crédito por parte de produtores rurais endividados. Eventos climáticos extremos, como estiagens e enchentes, geraram inadimplência em massa, deixando muitos produtores fora do sistema financeiro formal. Sem políticas de renegociação de dívidas e prorrogações automáticas, como previsto no MCR 2.6.4, o aumento da oferta de crédito não beneficia esses produtores.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;">A ausência de medidas estruturais, como um plano nacional de renegociação de dívidas rurais, prorrogações obrigatórias e reconhecimento da inadimplência como força maior, perpetua a exclusão de pequenos e médios produtores do acesso ao crédito. Enquanto grandes grupos capitalizados continuam a se beneficiar, os produtores mais vulneráveis permanecem desassistidos.</p>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin: 1em 0;">Conclusão</h2>
+    <p style="font-size: 1em; margin-bottom: 1em;">A Resolução CMN nº 5.216/2025 é um passo técnico na direção certa, ao aumentar a exigibilidade de recursos para o crédito rural e incluir cooperativas de crédito nesse esforço. Contudo, sua eficácia é limitada pela falta de políticas que enfrentem a crise de endividamento e as barreiras de acesso ao crédito enfrentadas pelos produtores rurais. O crédito rural deve ser um instrumento de inclusão e justiça econômica, não de exclusão. Sem ações corajosas, como um plano amplo de renegociação de dívidas e suporte aos produtores afetados por calamidades, o Brasil arrisca perder sua base produtiva rural, comprometendo a sustentabilidade do agronegócio.</p>
+  `,
+  featured: false
 }
   ];

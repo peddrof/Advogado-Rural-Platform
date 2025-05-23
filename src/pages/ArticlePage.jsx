@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, User, ArrowLeft, MessageCircle, Facebook, Mail, Linkedin, Copy, Check } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
@@ -76,6 +77,19 @@ const ArticlePage = () => {
 
   return (
     <div className="pt-32 pb-16">
+      <Helmet>
+        <title>{article.title}</title>
+        <meta name="description" content={article.subtitle} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.subtitle} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://advogadorural.com/blog/${slug}`} />
+        <meta property="og:image" content={article.image || 'https://advogadorural.com/thumbnail.png'} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.subtitle} />
+        <meta name="twitter:image" content={article.image || 'https://advogadorural.com/thumbnail.png'} />
+      </Helmet>
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -204,6 +218,12 @@ const ArticlePage = () => {
                 >
                   <Linkedin size={20} />
                 </a>
+                <button
+                  onClick={copyToClipboard}
+                  className="bg-rural-beige hover:bg-rural-darkbeige text-rural-darkgreen p-3 rounded-xl transition-colors duration-300"
+                >
+                  {copied ? <Check size={20} /> : <Copy size={20} />}
+                </button>
               </div>
             </div>
 
