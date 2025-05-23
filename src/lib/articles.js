@@ -1,16 +1,19 @@
 export const articles = [
   {
     id: 1,
-    title: 'O novo Plano Safra: observações para o produtor rural',
-    subtitle: 'Impactos e desafios do Plano Safra 2023/2024 para produtores rurais',
-    slug: 'novo-plano-safra-observacoes-para-o-produtor-rural',
-    category: 'Política Agrícola',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '3 de julho de 2023',
-    readTime: '7 min',
-    image: 'https://images.unsplash.com/photo-1656407410275-e63e689bcd90?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWdyb3xlbnwwfHwwfHx8Mg%3D%3D',
+    title: "O novo Plano Safra: observações para o produtor rural",
+    subtitle:
+      "Impactos e desafios do Plano Safra 2023/2024 para produtores rurais",
+    slug: "novo-plano-safra-observacoes-para-o-produtor-rural",
+    category: "Política Agrícola",
+    author: "Dr. Guilherme Medeiros",
+    authorRole:
+      "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "3 de julho de 2023",
+    readTime: "7 min",
+    image:
+      "https://images.unsplash.com/photo-1656407410275-e63e689bcd90?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWdyb3xlbnwwfHwwfHx8Mg%3D%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">No dia 27 de junho, o Governo Federal apresentou o Plano Safra da Agricultura Empresarial, voltado para produtores rurais de médio e grande porte, e apenas no dia seguinte foi anunciado o Pronaf (Programa Nacional da Agricultura Familiar). O fato de os dois anúncios terem sido feitos em datas separadas, envolvendo ministérios e participantes distintos, sugere que o governo adota uma abordagem específica em relação à produção advinda de pequenas propriedades. Importa que essa abordagem não contribua para uma falsa dicotomia entre agricultura empresarial e familiar, que devem ser vistos como setores complementares na expansão da produção rural brasileira, e não como adversários.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Quanto ao Plano Safra da Agricultura Empresarial, os valores realmente são impressionantes. Todos os programas principais (Moderagro, Agricultura de Baixo Carbono, PCA, Inovação e, principalmente, o Pronamp) receberam um aumento de recursos em comparação com o Plano Safra do ano anterior, exceto o Moderfrota, que teve uma redução de 10,16 bilhões para 9,49 bilhões este ano. Os valores para custeio (R$ 272,12 bilhões) e investimento (R$ 92,10 bilhões) também superaram o último plano safra da gestão do governo anterior.</p>
@@ -19,20 +22,23 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Aqui, preciso fazer uma ponderação um pouco mais incisiva, porque penso que a subvenção do seguro agrícola deveria ser a política agrícola número um do Brasil para a produção rural, independentemente da ideologia do governo. Especialmente porque o agronegócio, como indústria a céu aberto, está mais sujeito às influências externas do que qualquer outra cadeia produtiva. Plantar arroz, soja ou criar gado não é o mesmo que fabricar refrigerante. As alterações climáticas tem produzido estiagens severas e consecutivas, sobretudo nos Estados do Sul, onde se concentra uma parcela expressiva da produção nacional, afetando a vida e a rentabilidade de milhares de produtores. Além disso, há uma forte insegurança nesta política, que a cada mandato produz uma fórmula diferente de seguro agrícola, e não um único programa confiável e perene que fosse do Estado Brasileiro, e não de governos. O subsídio à produção agrícola é uma garantia para a segurança alimentar da população brasileira em caso de problemas futuros no mercado internacional, e um direito para a subsistência e sobrevida financeira do produtor atingido por intempéries climáticas ou desastres naturais.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Por fim, o presente Plano Safra, assim como os mais recentes, aponta para uma questão recorrente: cada vez mais, os produtores brasileiros precisam buscar alternativas de financiamento privado para não ficarem restritos em suas opções de fomento à atividade no futuro.</p>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 2,
-    title: 'Maior Plano Safra, maior cautela',
-    subtitle: 'Análise do Novo Plano Safra 2023/2024 e recomendações aos produtores',
-    slug: 'maior-plano-safra-maior-cautela',
-    category: 'Política Agrícola',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '16 de junho de 2023',
-    readTime: '6 min',
-    image: 'https://images.unsplash.com/photo-1632723893457-47e3abc47526?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWdyb3xlbnwwfHwwfHx8Mg%3D%3D',
+    title: "Maior Plano Safra, maior cautela",
+    subtitle:
+      "Análise do Novo Plano Safra 2023/2024 e recomendações aos produtores",
+    slug: "maior-plano-safra-maior-cautela",
+    category: "Política Agrícola",
+    author: "Dr. Guilherme Medeiros",
+    authorRole:
+      "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "16 de junho de 2023",
+    readTime: "6 min",
+    image:
+      "https://images.unsplash.com/photo-1632723893457-47e3abc47526?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWdyb3xlbnwwfHwwfHx8Mg%3D%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">Apesar de ainda não ter sido oficialmente lançado, o Novo Plano Safra já tem um desenho conhecido através de informações preliminares trazidas recentemente em declarações do Ministro do Desenvolvimento Agrário, Paulo Teixeira, e do ministro da Agricultura, Carlos Fávaro. Conforme este desenho prévio, o Novo Plano Safra será composto por cinco componentes principais, sendo o primeiro deles a disponibilização de R$ 135 bilhões em crédito para produtores rurais, com juros mais baixos e prazos mais longos para pagamento.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">O segundo componente é a ampliação do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), que passará a contar com R$ 39,3 bilhões em recursos. Além disso, o Pronaf Mulher terá R$ 3,4 bilhões em crédito específico para as agricultoras familiares.</p>
@@ -43,20 +49,23 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Já em relação aos pontos fracos, o Plano Safra 2023/2024 apresenta um aumento nas taxas de juros para algumas linhas de crédito, o que pode tornar o crédito mais caro e dificultar o acesso de algumas categorias de produtores. Além disso, o plano não apresentou muitas mudanças em relação aos anos anteriores no que diz respeito à inovação tecnológica e ao investimento em políticas públicas voltadas para a sustentabilidade e a preservação do meio ambiente – e isso apesar da orientação ambientalista muito enfática do discurso de governo – o que pode ser considerado um ponto negativo em um cenário em que cada vez mais se busca a produção agropecuária sustentável.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Mais do que nunca, é absolutamente necessária a cautela em relação à gestão financeira e ao planejamento estratégico do negócio. É importante manter um controle rigoroso dos custos e das despesas, bem como buscar alternativas para diversificar as fontes de renda e reduzir a dependência do financiamento estatal. Além disso, é fundamental estar atento às condições e aos requisitos exigidos pelos bancos para a concessão de crédito e garantir que a propriedade esteja em conformidade com as normas e regulamentações do setor.</p>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 3,
-    title: 'A Regra do Jogo: As Mudanças no MCR e o Produtor Rural',
-    subtitle: 'Impactos das Resoluções 5087, 5092 e 5093 no acesso ao crédito rural',
-    slug: 'regra-do-jogo-mudancas-no-mcr-e-o-produtor-rural',
-    category: 'Crédito Rural',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '14 de agosto de 2023',
-    readTime: '10 min',
-    image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0',
+    title: "A Regra do Jogo: As Mudanças no MCR e o Produtor Rural",
+    subtitle:
+      "Impactos das Resoluções 5087, 5092 e 5093 no acesso ao crédito rural",
+    slug: "regra-do-jogo-mudancas-no-mcr-e-o-produtor-rural",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole:
+      "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "14 de agosto de 2023",
+    readTime: "10 min",
+    image:
+      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">Recentemente, o Governo Federal promoveu ajustes significativos no acesso aos principais financiamentos agrícolas por meio de mudanças no Manual de Crédito Rural (MCR), mediante as Resoluções 5087, 5092 e 5093 do Conselho Monetário Nacional (CMN). Essas resoluções trazem modificações específicas que podem impactar o acesso ao crédito rural de forma mais direta, sobretudo para produtores que buscam financiamento através do Fundo de Terras e da Reforma Agrária ou que desejam adquirir máquinas e implementos agrícolas. Este artigo analisa as principais mudanças propostas nas Resoluções 5087, 5092 e 5093 e explora suas implicações para o produtor rural, a fim de compreender se tais alterações tornam o acesso ao crédito rural mais fácil e barato ou se poderá se tornar mais caro para o setor.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Uma das principais mudanças promovidas pela Resolução 5087 refere-se ao acesso ao Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp), operacionalizado pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES). O limite de renda bruta para enquadramento no programa foi elevado de R$ 2,4 milhões para R$ 3 milhões, o que aparentemente ampliaria o leque de produtores elegíveis para o Pronamp. Entretanto, um requisito adicional estabelecido pela resolução é que, para acessar o Pronamp, o candidato ao financiamento precisa ter 80% de sua renda bruta anual proveniente da atividade agropecuária. Essa medida exclui médios produtores cuja maior parte da renda advém de outras profissões, como médicos, advogados ou engenheiros, impossibilitando-os de acessar as linhas de crédito do programa, o que pode obstaculizar um considerável contingente de produtores rurais para o acesso a este programa, encarecendo o crédito rural na prática, na medida em que os obriga a buscar linhas de crédito com taxas de juros mais elevadas.</p>
@@ -75,20 +84,22 @@ export const articles = [
         <li style="margin-bottom: 0.5em;">SINIMBU, Fabíola. Governo faz ajustes em programas de concessão de crédito rural. Agência Brasil, 24 de Julho de 2023. Disponível em:  < https://agenciabrasil.ebc.com.br/economia/noticia/2023-07/governo-faz-ajustes-em-programas-de-concessao-de-credito-rural >. Acesso em 02 de agosto de 2023.</li>
         </ul>
       `,
-    featured: false
+    featured: false,
   },
   {
     id: 4,
-    title: 'O Agronegócio no ENEM: Menos Mitos, Mais Ciência, Mais Verdade',
-    subtitle: 'Uma análise crítica da abordagem do agronegócio na prova do ENEM',
-    slug: 'agronegocio-no-enem-menos-mitos-mais-ciencia-mais-verdade',
-    category: 'Direito Agrário',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado e Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '9 de novembro de 2023',
-    readTime: '8 min',
-    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV4YW18ZW58MHx8MHx8fDI%3D',
+    title: "O Agronegócio no ENEM: Menos Mitos, Mais Ciência, Mais Verdade",
+    subtitle:
+      "Uma análise crítica da abordagem do agronegócio na prova do ENEM",
+    slug: "agronegocio-no-enem-menos-mitos-mais-ciencia-mais-verdade",
+    category: "Direito Agrário",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado e Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "9 de novembro de 2023",
+    readTime: "8 min",
+    image:
+      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV4YW18ZW58MHx8MHx8fDI%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">O recente Exame Nacional do Ensino Médio (ENEM) trouxe à tona uma questão que gerou controvérsias devido ao seu tom opinativo e viés ideológico. Embora o ENEM tenha evoluído ao longo dos anos, passando de uma ferramenta de avaliação do ensino para um vestibular nacional, é importante lembrar que sua natureza deve priorizar questões técnicas e racionais, deixando de lado qualquer inclinação ideológica por parte do governo ou dos organizadores.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">A questão 89 da prova branca abordou o agronegócio no Cerrado, afirmando que “o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio.” A questão também mencionou o papel do capital na imposição de conhecimentos biotecnológicos e na subordinação dos agricultores à lógica do mercado. Essa perspectiva se baseia em um estudo intitulado “territorialização do agronegócio e subordinação do campesinato no cerrado,” realizado por pesquisadores da Universidade Federal de Goiás.</p>
@@ -109,20 +120,23 @@ export const articles = [
         <li style="margin-bottom: 0.5em;">Agro é tão subsidiado pelo governo como dizem? – Forbes</li>
       </ul>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 5,
-    title: 'Redução orçamentária do Seguro Agrícola e suas consequências para o agronegócio',
-    subtitle: 'Impactos da diminuição de recursos para o Seguro Agrícola no setor rural',
-    slug: 'reducao-orcamentaria-seguro-agricola-consequencias-agronegocio',
-    category: 'Política Agrícola',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado e Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '10 de fevereiro de 2024',
-    readTime: '6 min',
-    image: 'https://images.unsplash.com/photo-1544761634-dc512f2238a3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1ZGdldHxlbnwwfHwwfHx8Mg%3D%3D',
+    title:
+      "Redução orçamentária do Seguro Agrícola e suas consequências para o agronegócio",
+    subtitle:
+      "Impactos da diminuição de recursos para o Seguro Agrícola no setor rural",
+    slug: "reducao-orcamentaria-seguro-agricola-consequencias-agronegocio",
+    category: "Política Agrícola",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado e Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "10 de fevereiro de 2024",
+    readTime: "6 min",
+    image:
+      "https://images.unsplash.com/photo-1544761634-dc512f2238a3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1ZGdldHxlbnwwfHwwfHx8Mg%3D%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">No planejamento do orçamento para o exercício de 2024, o Governo Federal submeteu ao Congresso Nacional uma proposta orçamentária que, ao fim de muito debate legislativo, destinou uma quantia inferior a R$ 1 bilhão para a subvenção do Seguro Agrícola, ao mesmo tempo em que manteve um crédito de R$ 4,6 bilhões para o Fundo Eleitoral. Nesse cenário, também foram promovidos cortes substanciais em áreas sociais como Vale Gás, Farmácia Popular, Bolsas para o Ensino Superior, bolsas da CAPES e recursos destinados aos centros de referência para crianças com TEA (Transtorno do Espectro Autista).</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Dentre essas reduções orçamentárias, destaco a significativa diminuição de recursos para o Seguro Agrícola e suas implicações sérias em todas as cadeias do agronegócio, desde a agricultura empresarial até a familiar. A política agrícola deveria ser prioritária para a produção rural, independentemente de aspectos ideológicos. Esse destaque é ainda mais relevante devido à vulnerabilidade do agronegócio às influências externas, com o setor sujeito a alterações climáticas que impactam diretamente na produção.</p>
@@ -131,20 +145,23 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Paradoxalmente, chama atenção o silêncio da Suprema Corte diante dessas alterações orçamentárias tão bruscas. A magnitude dos cortes em áreas sociais essenciais para favorecer o financiamento público de campanhas políticas deveria ser motivo de reflexão ética, contrastando com o atual silêncio da mídia e das instituições.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">Quando um país destina 50 vezes mais recursos para o Fundo Eleitoral do que para o Seguro Agrícola, fica evidente uma total ausência de critérios claros na alocação de recursos, e por isso é pertinente promover discussões sobre a distribuição equitativa de verbas públicas. Esse debate deve considerar a relevância estratégica do setor agrícola para a segurança alimentar e econômica do país.</p>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 6,
-    title: 'Uma decisão controversa: o impacto da importação de arroz sobre os produtores rurais gaúchos',
-    subtitle: 'As consequências da importação de arroz para os arrozeiros do Rio Grande do Sul',
-    slug: 'decisao-controversa-impacto-importacao-arroz-produtores-rurais-gauchos',
-    category: 'Política Agrícola',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado e Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '3 de junho de 2024',
-    readTime: '7 min',
-    image: 'https://images.unsplash.com/photo-1592997571659-0b21ff64313b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmljZSUyMGhhcnZlc3R8ZW58MHx8MHx8fDI%3D',
+    title:
+      "Uma decisão controversa: o impacto da importação de arroz sobre os produtores rurais gaúchos",
+    subtitle:
+      "As consequências da importação de arroz para os arrozeiros do Rio Grande do Sul",
+    slug: "decisao-controversa-impacto-importacao-arroz-produtores-rurais-gauchos",
+    category: "Política Agrícola",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado e Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "3 de junho de 2024",
+    readTime: "7 min",
+    image:
+      "https://images.unsplash.com/photo-1592997571659-0b21ff64313b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmljZSUyMGhhcnZlc3R8ZW58MHx8MHx8fDI%3D",
     content: `
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">O Contexto da Catástrofe Climática</h2>
       <p style="font-size: 1em; margin-bottom: 1em;">As enchentes recentes no Rio Grande do Sul causaram danos severos à infraestrutura rural, destruindo estradas, pontes e propriedades agrícolas. A destruição das vias de transporte interrompeu o escoamento da produção, aumentando os custos e reduzindo a competitividade dos produtos locais. Além disso, as perdas nas lavouras prejudicaram a sustentabilidade financeira dos agricultores, que enfrentam dificuldades para cumprir suas obrigações financeiras e continuar a produção.</p>
@@ -159,20 +176,22 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">É imperativo que o governo federal reveja suas prioridades e adote uma abordagem mais equilibrada e sensível às necessidades dos produtores rurais. Investir na reconstrução de infraestrutura é não apenas uma questão de justiça social, mas também uma estratégia econômica inteligente para garantir a resiliência e a competitividade do setor agropecuário brasileiro. Os produtores rurais gaúchos, que contribuem significativamente para a economia nacional, merecem um apoio robusto e eficaz para superar os desafios impostos pelas mudanças climáticas e continuar a alimentar o Brasil e o mundo.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">A decisão de importar arroz em vez de investir na infraestrutura local não é apenas um erro estratégico, mas também uma negligência com aqueles que sustentam a economia agrícola do país. É hora de corrigir este caminho e investir no futuro sustentável do agronegócio brasileiro.</p>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 7,
-    title: 'Frustrações de Safra e Renegociação de Custeio',
-    subtitle: 'Como lidar com adversidades climáticas e renegociar contratos de custeio rural',
-    slug: 'frustracoes-de-safra-e-renegociacao-de-custeio',
-    category: 'Crédito Rural',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '11 de julho de 2024',
-    readTime: '10 min',
-    image: 'https://plus.unsplash.com/premium_photo-1663951812897-02ef7a050f3c?q=80&w=1075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: "Frustrações de Safra e Renegociação de Custeio",
+    subtitle:
+      "Como lidar com adversidades climáticas e renegociar contratos de custeio rural",
+    slug: "frustracoes-de-safra-e-renegociacao-de-custeio",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "11 de julho de 2024",
+    readTime: "10 min",
+    image:
+      "https://plus.unsplash.com/premium_photo-1663951812897-02ef7a050f3c?q=80&w=1075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">O ano de 2023 encerrou de forma desafiadora para o agronegócio brasileiro. Como se não bastasse o ambiente político-institucional controverso e cada vez mais hostil, um velho e conhecido inimigo deu suas caras de forma bastante abrupta: a adversidade climática.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">As localidades mais produtivas do país sofreram intempéries profundas. No Sul, enchentes que destruíram cidades inteiras, e no Cerrado brasileiro, a pior estiagem dos últimos 24 anos, causando prejuízos estratosféricos na economia de diversos municípios, e sendo ainda mais grave para os módulos rurais de pequenas propriedades e da agricultura familiar.</p>
@@ -209,20 +228,23 @@ export const articles = [
       <p style="font-size: 1em; margin-bottom: 1em;">Seguindo estas recomendações, o produtor seguramente terá êxito na renegociação do seu custeio, evitando a contingência da inclusão do seu nome em cadastros restritivos e também perdas patrimoniais, que eventualmente sucedem com produtores por falta de informação ou assessoria jurídica adequada. Em qualquer situação de crise, o diálogo e a serenidade, junto com uma competente juntada de documentos, é indispensável para uma renegociação bem-sucedida.</p>
       <p style="font-size: 1em; margin-bottom: 1em;">*Artigo publicado originalmente no Portal DireitoAgrário.com em 04/01/2024.</p>
     `,
-    featured: true
+    featured: true,
   },
   {
     id: 8,
-    title: 'A substituição dos Títulos de Crédito Rural pela Cédula de Crédito Bancário e a utilização indevida da CDI como indexador',
-    subtitle: 'Implicações jurídicas da substituição de títulos rurais e uso da CDI no crédito rural',
-    slug: 'substituicao-titulos-credito-rural-cedula-credito-bancario-utilizacao-indevida-cdi',
-    category: 'Crédito Rural',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado e Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '23 de setembro de 2024',
-    readTime: '12 min',
-    image: 'https://images.unsplash.com/photo-1714552820887-61d4e2061554?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJ1cmFsJTIwZmluYW5jZXxlbnwwfHwwfHx8Mg%3D%3D',
+    title:
+      "A substituição dos Títulos de Crédito Rural pela Cédula de Crédito Bancário e a utilização indevida da CDI como indexador",
+    subtitle:
+      "Implicações jurídicas da substituição de títulos rurais e uso da CDI no crédito rural",
+    slug: "substituicao-titulos-credito-rural-cedula-credito-bancario-utilizacao-indevida-cdi",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado e Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "23 de setembro de 2024",
+    readTime: "12 min",
+    image:
+      "https://images.unsplash.com/photo-1714552820887-61d4e2061554?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJ1cmFsJTIwZmluYW5jZXxlbnwwfHwwfHx8Mg%3D%3D",
     content: `
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">Introdução</h2>
       <p style="font-size: 1em; margin-bottom: 1em;">O crédito rural no Brasil é fundamental para o desenvolvimento do agronegócio, sendo regido por um arcabouço jurídico específico que visa garantir condições adequadas de financiamento para produtores rurais. O Decreto-Lei nº 167/67, que regulamenta a emissão de títulos de crédito rural, como a Cédula Rural Pignoratícia e a Cédula Rural Hipotecária, é um dos principais instrumentos legais nesse contexto. Aliado a isso, o Manual de Crédito Rural (MCR) estabelece diretrizes e normativas para o financiamento rural, incluindo mecanismos para prorrogação de contratos em situações de calamidade ou dificuldades financeiras.</p>
@@ -256,20 +278,23 @@ export const articles = [
         <li style="margin-bottom: 0.5em;">PEREIRA, Lutero de Paiva. Financiamento Rural. 4ª Edição. Curitiba: Juruá Editora, 2023.</li>
       </ul>
     `,
-    featured: true
+    featured: true,
   },
   {
     id: 9,
-    title: 'Nulidade de Cessão de Crédito Rural a Particulares Não Integrantes do Sistema Financeiro Nacional',
-    subtitle: 'Entenda por que a cessão de crédito rural a particulares é nula e suas implicações jurídicas',
-    slug: 'nulidade-cessao-credito-rural-particulares',
-    category: 'Crédito Rural',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '2 de dezembro de 2024',
-    readTime: '12 min',
-    image: 'https://images.unsplash.com/photo-1654747219663-3e79740fc5b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title:
+      "Nulidade de Cessão de Crédito Rural a Particulares Não Integrantes do Sistema Financeiro Nacional",
+    subtitle:
+      "Entenda por que a cessão de crédito rural a particulares é nula e suas implicações jurídicas",
+    slug: "nulidade-cessao-credito-rural-particulares",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "2 de dezembro de 2024",
+    readTime: "12 min",
+    image:
+      "https://images.unsplash.com/photo-1654747219663-3e79740fc5b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: `
       <p style="font-size: 1em; margin-bottom: 1em;">Resumo: Este artigo discute a nulidade da cessão de Crédito Rural a particulares não integrantes do Sistema Financeiro Nacional (SFN). A cessão de créditos rurais, regidos pela legislação especial, como a Lei nº 4.829/1965, o Decreto-Lei nº 167/1967 e o Manual de Crédito Rural (MCR), não pode ser equiparada à cessão de créditos mercantis, regulada por normas gerais. Com base no princípio da especialidade, o Crédito Rural deve ter um tratamento jurídico diferenciado, afastando a aplicação da Resolução nº 2.836/2001 do Bacen e as disposições gerais do Código Civil.</p>
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">1. Introdução</h2>
@@ -347,20 +372,21 @@ export const articles = [
         <li>BRASIL. Código Civil de 2002. Lei nº 10.406, de 10 de janeiro de 2002. Disponível em: https://www.planalto.gov.br</li>
       </ul>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 10,
-    title: 'Prescrição Intercorrente da Cédula Rural Pignoratícia',
-    subtitle: 'Entenda a prescrição intercorrente em contratos de crédito rural',
-    slug: 'prescricao-intercorrente-cedula-rural-pignoraticia',
-    category: 'Contratos Rurais',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '11 de dezembro de 2024',
-    readTime: '8 min',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
+    title: "Prescrição Intercorrente da Cédula Rural Pignoratícia",
+    subtitle:
+      "Entenda a prescrição intercorrente em contratos de crédito rural",
+    slug: "prescricao-intercorrente-cedula-rural-pignoraticia",
+    category: "Contratos Rurais",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "11 de dezembro de 2024",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
     content: `
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">1. Introdução</h2>
       <p style="font-size: 1em; margin-bottom: 1em;">A Cédula Rural Pignoratícia (CRP) é um instrumento essencial para o crédito rural, regulado pelo Decreto-Lei nº 167/67. Representando a aplicação do direito agrário à prática jurídica, a CRP sustenta a base financeira da produção agropecuária, garantindo o equilíbrio entre o acesso ao crédito e a segurança jurídica no campo.</p>
@@ -393,20 +419,23 @@ export const articles = [
         <li>REsp 1.604.412/SC.</li>
       </ul>
     `,
-    featured: false
+    featured: false,
   },
   {
     id: 11,
-    title: 'Impactos da Lei nº 15.040/2024 nos Contratos de Seguro Agrícola e Rural',
-    subtitle: 'Entenda como a nova lei afeta os contratos de seguro no agronegócio',
-    slug: 'impactos-lei-15040-2024-seguro-agricola-rural',
-    category: 'Contratos Rurais',
-    author: 'Dr. Guilherme Medeiros',
-    authorRole: 'Advogado Especialista em Direito Agrário',
-    authorPhoto: 'https://iili.io/3vHuR9I.png',
-    date: '11 de dezembro de 2024',
-    readTime: '15 min',
-    image: 'https://images.unsplash.com/photo-1746349772064-48e0726691c7?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title:
+      "Impactos da Lei nº 15.040/2024 nos Contratos de Seguro Agrícola e Rural",
+    subtitle:
+      "Entenda como a nova lei afeta os contratos de seguro no agronegócio",
+    slug: "impactos-lei-15040-2024-seguro-agricola-rural",
+    category: "Contratos Rurais",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "11 de dezembro de 2024",
+    readTime: "15 min",
+    image:
+      "https://images.unsplash.com/photo-1746349772064-48e0726691c7?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content: `
       <h2 style="font-size: 1.5em; margin-bottom: 1em;">Resumo</h2>
       <p style="font-size: 1em; margin-bottom: 1em;">A Lei nº 15.040/2024 introduziu mudanças significativas no regime jurídico dos contratos de seguro no Brasil, reforçando princípios como boa-fé, transparência e equilíbrio contratual. No setor agropecuário, onde o seguro agrícola desempenha papel central na mitigação de riscos, a nova legislação apresenta desafios e oportunidades. Este artigo analisa as implicações da lei no seguro agrícola e rural, com destaque para sua interação com o direito agrário, a compatibilidade com programas de subvenção como o PSR (Programa de Subvenção ao Prêmio do Seguro Rural) e normas como o Manual de Crédito Rural (MCR). Também aborda questões como judicialização, proteção ao pequeno produtor e a necessidade de regulamentações complementares.</p>
@@ -455,21 +484,24 @@ export const articles = [
       </ol>
       <p style="font-size: 1em; margin-bottom: 1em;">Nota do autor: Este artigo foi elaborado por Guilherme das Neves Medeiros, advogado especialista em Direito Agrário, Crédito Rural e Seguro Agrícola, membro do escritório WBA Advogados Associados e autor de artigos jurídicos sobre agronegócio.</p>
     `,
-    featured: false
+    featured: false,
   },
   {
-  id: 12,
-  title: 'Crédito Rural não é subsídio: o Brasil na contramão da segurança alimentar',
-  subtitle: 'Impacto doa suspensão do financiamento rural na segurança alimentar no Brasil',
-  slug: 'credito-rural-nao-e-subsidio',
-  category: 'Crédito Rural',
-  author: 'Dr. Guilherme Medeiros',
-  authorRole: 'Advogado Especialista em Direito Agrário',
-  authorPhoto: 'https://iili.io/3vHuR9I.png',
-  date: '22 de fevereiro de 2025',
-  readTime: '4 min',
-  image: 'https://images.unsplash.com/photo-1475084124271-aebaf8a67166?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dq=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  content: `
+    id: 12,
+    title:
+      "Crédito Rural não é subsídio: o Brasil na contramão da segurança alimentar",
+    subtitle:
+      "Impacto doa suspensão do financiamento rural na segurança alimentar no Brasil",
+    slug: "credito-rural-nao-e-subsidio",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "22 de fevereiro de 2025",
+    readTime: "4 min",
+    image:
+      "https://images.unsplash.com/photo-1475084124271-aebaf8a67166?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dq=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
     <p style="font-size: 1em; margin-bottom: 1em;">A recente decisão do Ministério da Fazenda de suspender a contratação de financiamento rural pelo Plano Safra acendeu um alerta vermelho sobre os rumos da economia brasileira. Por meio do Ofício nº 282/2025, apenas o Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), cujas taxas variam entre 3% e 6% ao ano, foi mantido. Já o Programa Nacional de Apoio ao Médio Produtor Rural (Pronamp), com juros de 8% ao ano, e demais linhas de crédito rural a 12% ao ano foram suspensas, restando como alternativa os “recursos livres” do mercado financeiro, que atualmente operam a taxas inacessíveis de até 18% ao ano.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">O argumento oficial para essa medida está fundamentado em questões burocráticas: a não aprovação da Lei de Diretrizes Orçamentárias (LDO) impediria a continuidade dos financiamentos. Embora esse argumento tenha respaldo técnico, há um pano de fundo político que não pode ser ignorado. Dentro da coalizão governista, existem setores que defendem a asfixia do agronegócio sob a justificativa de fortalecer a agricultura familiar. No entanto, essa lógica ignora um princípio econômico fundamental: segurança alimentar não se garante com escassez, mas sim com estímulo à produção.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">O financiamento agrícola não pode ser confundido com um subsídio. Ele não consiste na entrega de dinheiro público a produtores sem contrapartida, tampouco representa um privilégio setorial. Pelo contrário, trata-se de um instrumento fundamental para garantir liquidez ao setor produtivo, que precisa lidar com ciclos longos de safra, variações climáticas e oscilações de mercado.</p>
@@ -491,21 +523,25 @@ export const articles = [
     <p style="font-size: 1em; margin-bottom: 1em;">Portanto, urge uma revisão dessa política. O crédito rural não é subsídio, mas sim um pilar essencial para garantir segurança alimentar, crescimento econômico e estabilidade do setor agropecuário brasileiro.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Guilherme das Neves Medeiros é Especialista em Direito Agrário Aplicado ao Agronegócio, Vice-presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU. Certificado em Crédito Rural pela Febraban – FBB 420</p>
   `,
-  featured: false
-},
-{
-  id: 13,
-  title: 'As Perspectivas para o Plano Safra 2025/2026 diante da Alta da Selic e do Cenário Fiscal Restritivo',
-  subtitle: 'Os desafios do crédito rural em um cenário de juros altos e restrições fiscais',
-  slug: 'perspectivas-plano-safra-2025-2026-alta-selic-cenario-fiscal-restritivo',
-  category: 'Política Agrícola',
-  author: 'Dr. Guilherme Medeiros',
-  authorRole: 'Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.o',
-  authorPhoto: 'https://iili.io/3vHuR9I.png',
-  date: '20 de março de 2025',
-  readTime: '10 min',
-  image: 'https://images.unsplash.com/photo-1660547251171-f41092c7f644?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWdyb25lZ29jaW98ZW58MHx8MHx8fDI%3D',
-  content: `
+    featured: false,
+  },
+  {
+    id: 13,
+    title:
+      "As Perspectivas para o Plano Safra 2025/2026 diante da Alta da Selic e do Cenário Fiscal Restritivo",
+    subtitle:
+      "Os desafios do crédito rural em um cenário de juros altos e restrições fiscais",
+    slug: "perspectivas-plano-safra-2025-2026-alta-selic-cenario-fiscal-restritivo",
+    category: "Política Agrícola",
+    author: "Dr. Guilherme Medeiros",
+    authorRole:
+      "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.o",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "20 de março de 2025",
+    readTime: "10 min",
+    image:
+      "https://images.unsplash.com/photo-1660547251171-f41092c7f644?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWdyb25lZ29jaW98ZW58MHx8MHx8fDI%3D",
+    content: `
     <p style="font-size: 1em; margin-bottom: 1em;">As discussões iniciais em torno do Plano Safra 2025/2026 escancaram os entraves estruturais da política agrícola brasileira, especialmente no tocante à sustentabilidade orçamentária do crédito rural subsidiado. Embora o Ministério da Agricultura e Pecuária (MAPA) e o Ministério da Fazenda sinalizem a intenção de lançar um plano “recorde”, o recente aumento da taxa Selic para 14,25% ao ano — conforme decisão do Comitê de Política Monetária (Copom) em 19 de março de 2025 — acende um alerta técnico-jurídico: sem reforço orçamentário proporcional, o governo não conseguirá manter, ao mesmo tempo, altos volumes de crédito e taxas de juros acessíveis, como exige a realidade econômica do campo.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Do ponto de vista jurídico-agrarista, o crédito rural transcende sua natureza financeira: trata-se de instrumento de política agrícola, com previsão expressa no art. 187 da Constituição Federal, cuja função é assegurar condições adequadas de produção, comercialização e desenvolvimento do meio rural. A Constituição impõe ao Estado o dever de garantir acesso amplo, contínuo e em condições justas ao crédito rural, sobretudo para os pequenos e médios produtores, conforme também estabelecido no Estatuto da Terra (Lei nº 4.504/1964) e na Lei nº 4.829/1965, que instituiu o crédito rural no Brasil.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Entretanto, o atual cenário fiscal é restritivo. O Projeto de Lei Orçamentária Anual (PLOA) 2025, aprovado pelo Congresso Nacional, manteve o teto de R$ 15,03 bilhões para a equalização das taxas de juros do crédito rural, segundo dados da proposta orçamentária do governo. Isso cria um paradoxo jurídico-financeiro: ou o Plano Safra será volumoso, porém com taxas elevadas e socialmente excludentes; ou terá juros acessíveis, mas com oferta limitada de recursos, descumprindo sua função constitucional de promoção da justiça social no meio rural.</p>
@@ -540,21 +576,25 @@ export const articles = [
       <li style="margin-bottom: 0.5em;">Manual de Crédito Rural – BACEN. Item 2.6.4: Prorrogação e renegociação de operações de crédito rural.</li>
     </ul>
   `,
-  featured: false
-},
-{
-  id: 14,
-  title: 'Subsídios ao Agronegócio Brasileiro: Uma Análise Jurídico-Agrária Comparada',
-  subtitle: 'Uma análise comparativa dos subsídios ao agronegócio brasileiro frente a outros países',
-  slug: 'subsidios-ao-agronegocio-brasileiro-uma-analise-juridico-agraria-comparada',
-  category: 'Crédito Rural',
-  author: 'Dr. Guilherme Medeiros',
-  authorRole: 'Advogado Especialista em Direito Agrário e Direito do Agronegócio',
-  authorPhoto: 'https://iili.io/3vHuR9I.png',
-  date: '15 de maio de 2025',
-  readTime: '8 min',
-  image: 'https://images.unsplash.com/photo-1505764706515-aa95265c5abc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWdyb25lZ29jaW98ZW58MHx8MHx8fDI%3D',
-  content: `
+    featured: false,
+  },
+  {
+    id: 14,
+    title:
+      "Subsídios ao Agronegócio Brasileiro: Uma Análise Jurídico-Agrária Comparada",
+    subtitle:
+      "Uma análise comparativa dos subsídios ao agronegócio brasileiro frente a outros países",
+    slug: "subsidios-ao-agronegocio-brasileiro-uma-analise-juridico-agraria-comparada",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole:
+      "Advogado Especialista em Direito Agrário e Direito do Agronegócio",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "15 de maio de 2025",
+    readTime: "8 min",
+    image:
+      "https://images.unsplash.com/photo-1505764706515-aa95265c5abc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWdyb25lZ29jaW98ZW58MHx8MHx8fDI%3D",
+    content: `
     <p style="font-size: 1em; margin-bottom: 1em;">O agronegócio brasileiro é, indiscutivelmente, um dos motores da economia nacional. Responde por parcela significativa do PIB, da geração de empregos e da balança comercial positiva. Ainda assim, é comum encontrar distorções no debate público sobre o papel do Estado no financiamento e no suporte ao setor. Dentre elas, a mais recorrente é a alegação de que o agro brasileiro seria excessivamente subsidiado. Os dados oficiais, no entanto, apontam em sentido oposto.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Segundo os relatórios da Organização para a Cooperação e Desenvolvimento Econômico (OCDE), o Brasil figura entre os países que menos concedem subsídios diretos ao produtor rural, mesmo ocupando posição de destaque entre os maiores exportadores agrícolas do planeta. O índice conhecido como Producer Support Estimate (PSE), que calcula o percentual da receita bruta dos produtores oriundo de transferências públicas, foi de apenas 1,35% no Brasil em 2020. No mesmo período, o índice foi de 19,3% na União Europeia, 12,1% na China e 11% nos Estados Unidos.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Outro indicador relevante é a Total Support Estimate (TSE), que mede o apoio total do Estado ao setor agropecuário. O Brasil destinou 0,34% de seu orçamento para esse fim, enquanto China, União Europeia e Estados Unidos destinaram, respectivamente, 1,59%, 0,66% e 0,46%. Trata-se, portanto, de um desequilíbrio estrutural no apoio estatal ao agro em nível global.</p>
@@ -564,21 +604,25 @@ export const articles = [
     <p style="font-size: 1em; margin-bottom: 1em;">Essa realidade tem implicações jurídicas relevantes. Se por um lado a Constituição e a Lei da Política Agrícola reconhecem o dever estatal de fomentar a produção rural, na prática a omissão no financiamento e no seguro de safras expõe o produtor a riscos desproporcionais, principalmente frente à concorrência internacional fortemente protegida. Trata-se de uma inversão da função social do crédito rural, que deveria ser instrumento de equilíbrio e justiça agrária, mas hoje depende quase exclusivamente da lógica mercantil.</p>
     <p style="font-size: 1em; margin-bottom: 1em;">Portanto, é técnica e juridicamente correto afirmar que o agro brasileiro não é subsidiado em excesso — ao contrário, é um setor subassistido, que opera sob risco, em desvantagem comparada e com enorme capacidade de resiliência e produtividade. A desinformação quanto a isso compromete o debate e obscurece a urgência de uma política agrícola mais assertiva e equilibrada.</p>
   `,
-  featured: false
-},
-{
-  id: 15,
-  title: 'Resolução CMN nº 5.216/2025: Avanço Técnico no Crédito Rural, mas Insuficiente Diante da Realidade do Produtor Endividado',
-  subtitle: 'Análise da nova resolução do CMN e sua limitação frente à crise de endividamento dos produtores rurais',
-  slug: 'resolucao-cmn-5216-2025-avanco-tecnico-credito-rural-insuficiente-produtor-endividado',
-  category: 'Crédito Rural',
-  author: 'Dr. Guilherme Medeiros',
-  authorRole: 'Advogado Especialista em Direito Agrário e Crédito Rural',
-  authorPhoto: 'https://iili.io/3vHuR9I.png',
-  date: '22 de maio de 2025',
-  readTime: '10 min',
-  image: 'https://images.unsplash.com/photo-1567510534272-07e0f621b6d3?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  content: '<h2 style=\"font-size: 1.2em; margin-bottom: 0.5em;\">1. Introdução</h2><p style=\"font-size: 1em; margin-bottom: 1em;\">No dia 22 de maio de 2025, o Conselho Monetário Nacional publicou a Resolução CMN nº 5.216/2025, alterando significativamente a estrutura do Manual de Crédito Rural (MCR), especialmente os capítulos 6-2 (recursos obrigatórios), 6-4 (poupança rural) e 6-7 (letras de crédito do agronegócio – LCA). A norma busca, em essência, aumentar a obrigação das instituições financeiras em aplicar recursos no crédito rural e incluir cooperativas de crédito nesse esforço.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Trata-se, sem dúvida, de um avanço técnico relevante, mas que não pode ser interpretado como solução para a crise estrutural de acesso ao crédito enfrentada pelos produtores rurais brasileiros, especialmente os atingidos por catástrofes climáticas e em situação de superendividamento.</p><h2 style=\"font-size: 1.2em; margin-bottom: 0.5em;\">2. Principais alterações normativas</h2><h3 style=\"font-size: 1.1em; margin-bottom: 0.5em;\">MCR 6-2 – Recursos Obrigatórios</h3><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>A exigibilidade dos depósitos à vista sobe de 25% para 31,5%;</li><li>Cooperativas de crédito passam a ser incluídas na obrigação de cumprimento da exigibilidade, com um cronograma escalonado:<ul style=\"list-style-type: circle; padding-left: 20px;\"><li>6% (2025/2026),</li><li>13% (2026/2027),</li><li>22% (2027/2028),</li><li>31,5% a partir de julho de 2028;</li></ul></li><li>A subexigibilidade do PRONAMP permanece em 50%, admitindo até 10% em operações de investimento;</li><li>A subexigibilidade do PRONAF permanece em 35%, exclusivamente para operações de custeio.</li></ul><h3 style=\"font-size: 1.1em; margin-bottom: 0.5em;\">MCR 6-4 – Poupança Rural</h3><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>A exigência de aplicação de 70% da média dos depósitos da poupança rural em operações de crédito rural foi mantida.</li></ul><h3 style=\"font-size: 1.1em; margin-bottom: 0.5em;\">MCR 6-7 – Letra de Crédito do Agronegócio (LCA)</h3><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>A exigência de destinação mínima de recursos volta a 60% (revogando a redução promovida pela Resolução 5.210/2025);</li><li>As cooperativas de crédito passam a se submeter às mesmas obrigações das demais instituições financeiras, com apuração consolidada da aplicação.</li></ul><h2 style=\"font-size: 1.2em; margin-bottom: 0.5em;\">3. Avanço normativo: sim. Solução prática: ainda não.</h2><p style=\"font-size: 1em; margin-bottom: 1em;\">A Resolução representa um esforço legítimo do CMN em forçar o sistema financeiro a reorientar parte de seus recursos em favor da produção agropecuária, algo urgente diante do cenário de abandono a que muitos produtores estão submetidos.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">No entanto, há uma distância abismal entre alocar recursos e permitir o acesso a eles.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Hoje, milhares de produtores rurais encontram-se impossibilitados de acessar crédito formal, não por escolha, mas por força de uma série de eventos climáticos que geraram inadimplência em massa. A ausência de uma política de renegociação ampla e eficaz torna essas alterações meramente técnicas, sem impacto real sobre a vida de quem precisa plantar, colher e pagar contas.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Sem instrumentos de regularização cadastral e prorrogação automática nos moldes do MCR 2.6.4, o aumento da oferta é estéril.</p><h2 style=\"font-size: 1.2em; margin-bottom: 0.5em;\">4. Considerações finais – O crédito rural precisa de mais que engenharia normativa: precisa de coragem política e justiça econômica</h2><p style=\"font-size: 1em; margin-bottom: 1em;\">A Resolução CMN nº 5.216/2025 é, sem dúvida, um avanço sob a ótica regulatória. Aumenta a exigibilidade dos bancos, inclui as cooperativas de crédito e amplia os percentuais obrigatórios de destinação de recursos para o crédito rural. Em linguagem contábil, está correta. Em termos de política agrícola, é necessária.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Mas sob a ótica do produtor rural — especialmente o que sofre com os efeitos acumulados de estiagens, enchentes, perdas seguidas e um sistema que o abandonou —, a medida não dialoga com a urgência real do campo.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Hoje, há um número alarmante de produtores fora do sistema de crédito, mesmo sendo os principais responsáveis por movimentar a base econômica do Brasil. Estão negativados, inadimplentes, executados ou à beira da execução, sem plano emergencial de reestruturação e sem qualquer política efetiva de regularização do passivo.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">A resolução fortalece a oferta de recursos no papel, mas ignora que o problema central está na demanda: o produtor não tem condição de acessar o crédito, mesmo com recursos disponíveis.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">É inconcebível que, diante do maior colapso climático da história do agronegócio gaúcho e brasileiro, a resposta institucional seja apenas um ajuste técnico de alocação financeira. Não se enfrenta uma calamidade rural com planilhas. Enfrenta-se com ações estruturais, coordenadas e corajosas.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">Enquanto não houver:</p><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>Um plano nacional de renegociação e alongamento das dívidas rurais,</li><li>Prorrogações obrigatórias nos moldes do MCR 2.6.4 com cumprimento efetivo por parte das instituições financeiras,</li><li>Reconhecimento da inadimplência como efeito de força maior e não como inadimplemento voluntário,</li></ul><p style=\"font-size: 1em; margin-bottom: 1em;\">qualquer tentativa de “estímulo ao crédito rural” será inócua para quem está afundado no campo — e útil apenas aos grandes grupos capitalizados que continuarão acessando os recursos e concentrando mercado.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">O crédito rural, como política pública, deve be ser instrumento de distribuição, não de exclusão.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">O país precisa decidir se deseja manter o pequeno e médio produtor no campo ou se vai empurrá-lo, de forma institucional, para fora da atividade. Porque, se nada for feito além de resoluções como essa, o sistema financeiro terá crédito rural de sobra — mas não terá mais produtores para financiá-los.</p>',
-  featured: false
-}
-  ];
+    featured: false,
+  },
+  {
+    id: 15,
+    title:
+      "Resolução CMN nº 5.216/2025: Avanço Técnico no Crédito Rural, mas Insuficiente Diante da Realidade do Produtor Endividado",
+    subtitle:
+      "Análise da nova resolução do CMN e sua limitação frente à crise de endividamento dos produtores rurais",
+    slug: "resolucao-cmn-5216-2025-avanco-tecnico-credito-rural-insuficiente-produtor-endividado",
+    category: "Crédito Rural",
+    author: "Dr. Guilherme Medeiros",
+    authorRole: "Advogado Especialista em Direito Agrário e Crédito Rural",
+    authorPhoto: "https://iili.io/3vHuR9I.png",
+    date: "22 de maio de 2025",
+    readTime: "10 min",
+    image:
+      "https://images.unsplash.com/photo-1567510534272-07e0f621b6d3?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content:
+      '<h2 style="font-size: 1.5em; margin-bottom: 0.5em;">1. Introdução</h2><p style="font-size: 1em; margin-bottom: 1em;">No dia 22 de maio de 2025, o Conselho Monetário Nacional publicou a Resolução CMN nº 5.216/2025, alterando significativamente a estrutura do Manual de Crédito Rural (MCR), especialmente os capítulos 6-2 (recursos obrigatórios), 6-4 (poupança rural) e 6-7 (letras de crédito do agronegócio – LCA). A norma busca, em essência, aumentar a obrigação das instituições financeiras em aplicar recursos no crédito rural e incluir cooperativas de crédito nesse esforço.</p><p style="font-size: 1em; margin-bottom: 1em;">Trata-se, sem dúvida, de um avanço técnico relevante, mas que não pode ser interpretado como solução para a crise estrutural de acesso ao crédito enfrentada pelos produtores rurais brasileiros, especialmente os atingidos por catástrofes climáticas e em situação de superendividamento.</p><h2 style="font-size: 1.5em; margin-bottom: 0.5em;">2. Principais alterações normativas</h2><h3 style="font-size: 1.25em; margin-bottom: 0.75em;">MCR 6-2 – Recursos Obrigatórios</h3><ul style="font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;"><li>A exigibilidade dos depósitos à vista sobe de 25% para 31,5%;</li><li>Cooperativas de crédito passam a ser incluídas na obrigação de cumprimento da exigibilidade, com um cronograma escalonado:<ul style="list-style-type: circle; padding-left: 20px;"><li>6% (2025/2026),</li><li>13% (2026/2027),</li><li>22% (2027/2028),</li><li>31,5% a partir de julho de 2028;</li></ul></li><li>A subexigibilidade do PRONAMP permanece em 50%, admitindo até 10% em operações de investimento;</li><li>A subexigibilidade do PRONAF permanece em 35%, exclusivamente para operações de custeio.</li></ul><h3 style="font-size: 1.25em; margin-bottom: 0.75em;">MCR 6-4 – Poupança Rural</h3><ul style="font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;"><li>A exigência de aplicação de 70% da média dos depósitos da poupança rural em operações de crédito rural foi mantida.</li></ul><h3 style="font-size: 1.25em; margin-bottom: 0.75em;">MCR 6-7 – Letra de Crédito do Agronegócio (LCA)</h3><ul style="font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;"><li>A exigência de destinação mínima de recursos volta a 60% (revogando a redução promovida pela Resolução 5.210/2025);</li><li>As cooperativas de crédito passam a se submeter às mesmas obrigações das demais instituições financeiras, com apuração consolidada da aplicação.</li></ul><h2 style="font-size: 1.5em; margin-bottom: 0.5em;">3. Avanço normativo: sim. Solução prática: ainda não.</h2><p style="font-size: 1em; margin-bottom: 1em;">A Resolução representa um esforço legítimo do CMN em forçar o sistema financeiro a reorientar parte de seus recursos em favor da produção agropecuária, algo urgente diante do cenário de abandono a que muitos produtores estão submetidos.</p><p style="font-size: 1em; margin-bottom: 1em;">No entanto, há uma distância abismal entre alocar recursos e permitir o acesso a eles.</p><p style="font-size: 1em; margin-bottom: 1em;">Hoje, milhares de produtores rurais encontram-se impossibilitados de acessar crédito formal, não por escolha, mas por força de uma série de eventos climáticos que geraram inadimplência em massa. A ausência de uma política de renegociação ampla e eficaz torna essas alterações meramente técnicas, sem impacto real sobre a vida de quem precisa plantar, colher e pagar contas.</p><p style="font-size: 1em; margin-bottom: 1em;">Sem instrumentos de regularização cadastral e prorrogação automática nos moldes do MCR 2.6.4, o aumento da oferta é estéril.</p><h2 style="font-size: 1.5em; margin-bottom: 0.5em;">4. Considerações finais – O crédito rural precisa de mais que engenharia normativa: precisa de coragem política e justiça econômica</h2><p style="font-size: 1em; margin-bottom: 1em;">A Resolução CMN nº 5.216/2025 é, sem dúvida, um avanço sob a ótica regulatória. Aumenta a exigibilidade dos bancos, inclui as cooperativas de crédito e amplia os percentuais obrigatórios de destinação de recursos para o crédito rural. Em linguagem contábil, está correta. Em termos de política agrícola, é necessária.</p><p style="font-size: 1em; margin-bottom: 1em;">Mas sob a ótica do produtor rural — especialmente o que sofre com os efeitos acumulados de estiagens, enchentes, perdas seguidas e um sistema que o abandonou —, a medida não dialoga com a urgência real do campo.</p><p style="font-size: 1em; margin-bottom: 1em;">Hoje, há um número alarmante de produtores fora do sistema de crédito, mesmo sendo os principais responsáveis por movimentar a base econômica do Brasil. Estão negativados, inadimplentes, executados ou à beira da execução, sem plano emergencial de reestruturação e sem qualquer política efetiva de regularização do passivo.</p><p style="font-size: 1em; margin-bottom: 1em;">A resolução fortalece a oferta de recursos no papel, mas ignora que o problema central está na demanda: o produtor não tem condição de acessar o crédito, mesmo com recursos disponíveis.</p><p style="font-size: 1em; margin-bottom: 1em;">É inconcebível que, diante do maior colapso climático da história do agronegócio gaúcho e brasileiro, a resposta institucional seja apenas um ajuste técnico de alocação financeira. Não se enfrenta uma calamidade rural com planilhas. Enfrenta-se com ações estruturais, coordenadas e corajosas.</p><p style="font-size: 1em; margin-bottom: 1em;">Enquanto não houver:</p><ul style="font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;"><li>Um plano nacional de renegociação e alongamento das dívidas rurais,</li><li>Prorrogações obrigatórias nos moldes do MCR 2.6.4 com cumprimento efetivo por parte das instituições financeiras,</li><li>Reconhecimento da inadimplência como efeito de força maior e não como inadimplemento voluntário,</li></ul><p style="font-size: 1em; margin-bottom: 1em;">Qualquer tentativa de “estímulo ao crédito rural” será inócua para quem está afundado no campo — e útil apenas aos grandes grupos capitalizados que continuarão acessando os recursos e concentrando mercado.</p><p style="font-size: 1em; margin-bottom: 1em;">O crédito rural, como política pública, deve be ser instrumento de distribuição, não de exclusão.</p><p style="font-size: 1em; margin-bottom: 1em;">O país precisa decidir se deseja manter o pequeno e médio produtor no campo ou se vai empurrá-lo, de forma institucional, para fora da atividade. Porque, se nada for feito além de resoluções como essa, o sistema financeiro terá crédito rural de sobra — mas não terá mais produtores para financiá-los.</p>',
+    featured: false,
+  },
+];
