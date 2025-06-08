@@ -7,7 +7,7 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'João Silva',
+      name: 'João André',
       role: 'Produtor Rural',
       content: 'O blog do Advogado Rural tem sido uma fonte valiosa de informações para minha propriedade. Os artigos são claros e me ajudaram a resolver questões jurídicas que eu nem sabia que existiam.',
       rating: 5
@@ -21,7 +21,7 @@ const TestimonialSection = () => {
     },
     {
       id: 3,
-      name: 'Carlos Santos',
+      name: 'Vanderlei Morais',
       role: 'Pecuarista',
       content: 'Graças aos artigos sobre regularização fundiária, consegui resolver um problema antigo em minha propriedade. Conteúdo de qualidade e muito prático.',
       rating: 4
