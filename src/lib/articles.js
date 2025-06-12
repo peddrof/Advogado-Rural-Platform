@@ -653,21 +653,29 @@ export const articles = [
   readTime: '7 min',
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2Zt14qO65BRdRHSMpfuCjSQc4A8PMX2MbqONttLKw87iYd6BICICXnE&s=10w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JlZGl0b3MlMjBhZ3JpY29sYXN8ZW58MHx8MHx8fDI%3D',
   content: `
-    <p style="font-size: 1em; margin-bottom: 1em;">A Medida Provisória nº 1.303/2025, publicada no dia 11 de junho, representa um golpe silencioso, porém profundo, na espinha dorsal do financiamento privado do agronegócio brasileiro. Sob a justificativa técnica de “harmonização tributária”, a norma cria uma tributação inédita de 5% sobre rendimentos de instrumentos como a Letra de Crédito do Agronegócio (LCA), Certificados de Recebíveis do Agronegócio (CRA), Certificados de Direitos Creditórios do Agronegócio (CDCA) e Cédulas de Produto Rural com liquidação financeira (CPR-F), quando negociados no mercado financeiro.</p>
+    <p style="font-size: 1em; margin-bottom: 1em;">MP 1.303/2025 e o Desmonte Silencioso do Financiamento do Agronegócio
 
-    <p style="font-size: 1em; margin-bottom: 1em;">A medida retira a isenção que historicamente conferia atratividade a esses papéis, especialmente para investidores pessoa física — peça-chave na democratização do crédito rural fora do circuito bancário tradicional. Trata-se de uma ruptura estrutural em um modelo que vinha se consolidando com base em previsibilidade, segurança jurídica e inspiração em boas práticas internacionais.</p>
+Por Guilherme Medeiros – Advogado agrarista, especialista em Crédito Rural e Seguro Agrícola
 
-    <p style="font-size: 1em; margin-bottom: 1em;">O impacto tende a ser severo: a elevação da carga tributária tornará menos rentável investir nesses títulos, exigindo maiores retornos e, consequentemente, encarecendo o crédito para o produtor. A cadeia produtiva como um todo sofrerá: cooperativas terão mais dificuldade para captar recursos; securitizadoras perderão competitividade; tradings enfrentarão maiores custos operacionais; fundos como Fiagro e FII Agro perderão atratividade para o investidor comum.</p>
-
-    <p style="font-size: 1em; margin-bottom: 1em;">É preciso destacar que o sistema de financiamento privado do agro — que hoje representa parcela relevante do funding agrícola — é resultado de uma evolução legislativa que buscou reduzir a dependência do crédito público, aumentar a eficiência da alocação de recursos e integrar o agro ao mercado de capitais. Medidas como a MP 1.303/2025 caminham na contramão dessa modernização.</p>
-
-    <p style="font-size: 1em; margin-bottom: 1em;">O exemplo dos Estados Unidos, com seus <em>Farm Credit Bonds</em>, e de países europeus que estruturam seus títulos com base em ativos do agro, mostra que o caminho é incentivar, e não punir, o financiamento privado do setor. Tributar os instrumentos que alimentam diretamente a economia real significa comprometer o acesso ao crédito, a competitividade e a própria sustentabilidade da produção nacional.</p>
-
-    <p style="font-size: 1em; margin-bottom: 1em;">Em vez de cortar ineficiências da máquina pública, a MP busca arrecadação fácil às custas de um setor estratégico, responsável por empregar, exportar e manter superávits recordes na balança comercial. A consequência mais provável será a retração dos investimentos privados no agro e o fortalecimento da concentração de mercado em poucos grupos que ainda conseguem acesso a fontes alternativas de crédito.</p>
-
-    <p style="font-size: 1em; margin-bottom: 1em;">Enquanto isso, o pequeno e médio produtor, que já sofre com crises climáticas e endividamento estrutural, verá o financiamento privado — muitas vezes sua única alternativa — se tornar menos acessível e mais caro.</p>
-
-    <p style="font-size: 1em; margin-bottom: 1em;">O Congresso Nacional tem, agora, a responsabilidade de revisar e rejeitar essa medida provisória, garantindo que o agro seja tratado como política de Estado, e não como fonte imediata de arrecadação fiscal. Caso contrário, o Brasil corre o risco de minar um dos sistemas de financiamento rural mais inovadores e promissores da sua história recente.</p>
+A Medida Provisória nº 1.303/2025, editada no apagar das luzes de 11 de junho, representa um movimento grave de retrocesso no financiamento do agronegócio brasileiro. Sob o pretexto de “harmonizar a tributação de aplicações financeiras”, o que se opera na prática é uma taxação inédita e desastrosa sobre instrumentos essenciais à estrutura do crédito privado rural.
+<br>
+A partir de 1º de janeiro de 2026, passarão a ser tributados à alíquota de 5% os rendimentos de títulos como a Letra de Crédito do Agronegócio (LCA), o Certificado de Recebíveis do Agronegócio (CRA), o Certificado de Direitos Creditórios do Agronegócio (CDCA) e as Cédulas de Produto Rural com liquidação financeira, desde que negociadas no mercado financeiro. Isso põe fim à isenção que sustentava a atratividade desses papéis para o investidor, sobretudo a pessoa física, motor silencioso da expansão do agro no mercado de capitais.
+<br>
+É essencial compreender o que está em jogo: não se trata apenas de um ajuste contábil ou de uma nova regra fiscal. Estamos falando da coluna vertebral de um modelo de financiamento que democratizou o crédito rural, especialmente fora do balcão tradicional dos grandes bancos. Com a tributação, a conta deixará de fechar para o investidor — que exigirá maior retorno — e para o produtor, que pagará mais caro para plantar, armazenar ou industrializar sua produção.
+<br>
+A medida colide frontalmente com tudo o que vínhamos construindo em torno da modernização da política agrícola brasileira. O Fiagro, os CRAs, os Fundos Imobiliários Rurais, as LCAs, os CDCAs e a CPR-F não surgiram por acaso. Foram estruturados com base em modelos internacionais de fomento ao agro via mercado de capitais — como os Farm Credit Bonds dos EUA ou os títulos garantidos por ativos do agro na Europa.
+<br>
+Mais do que comprometer a atratividade desses papéis, a MP 1.303/2025 coloca em xeque toda a modernização legislativa que instituiu o financiamento privado do agronegócio, uma conquista que permitiu ao setor reduzir sua dependência do crédito público, aumentar sua eficiência e expandir sua presença no mercado financeiro. Uma ruptura desse porte ameaça diretamente o setor que mais emprega, mais arrecada e mais exporta no Brasil.
+<br>
+A pergunta é inevitável: por que tributar o crédito que alimenta a economia real em vez de atacar os desperdícios da máquina pública?
+<br>
+A MP 1.303 compromete a diversificação do funding agrícola, a competitividade do produtor brasileiro e o futuro da desintermediação bancária. Em vez de construir soluções estruturantes para garantir segurança jurídica e previsibilidade ao investidor, o governo opta por uma arrecadação imediatista, que pode representar bilhões a menos em crédito nos próximos anos para o campo brasileiro.
+<br>
+Mais preocupante ainda é que toda a cadeia produtiva sentirá o impacto: cooperativas terão dificuldade para captar recursos; tradings terão custos maiores para estruturar CPRs; securitizadoras verão seu papel esvaziado; e fundos de investimento — como Fiagro e FII Agro — perderão cotistas diante de regras mais onerosas e instáveis.
+<br>
+Como advogado agrarista, militante da causa rural e estudioso do crédito agrícola brasileiro, discordo frontalmente dessa medida provisória e me somo aos que defendem o agro como política de Estado — e não como fonte de arrecadação emergencial.
+<br>
+É hora de nos mobilizarmos — como operadores do Direito Agrário, como produtores, como entidades representativas e como cidadãos — para exigir do Congresso Nacional que não convalide esse ataque silencioso ao futuro do campo brasileiro.</p>
   `,
   featured: false
 }
