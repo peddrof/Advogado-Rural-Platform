@@ -658,9 +658,9 @@ export const articles = [
 Por Guilherme Medeiros – Advogado agrarista, especialista em Crédito Rural e Seguro Agrícola
 
 A Medida Provisória nº 1.303/2025, editada no apagar das luzes de 11 de junho, representa um movimento grave de retrocesso no financiamento do agronegócio brasileiro. Sob o pretexto de “harmonizar a tributação de aplicações financeiras”, o que se opera na prática é uma taxação inédita e desastrosa sobre instrumentos essenciais à estrutura do crédito privado rural.
-<br>
+<br/>
 A partir de 1º de janeiro de 2026, passarão a ser tributados à alíquota de 5% os rendimentos de títulos como a Letra de Crédito do Agronegócio (LCA), o Certificado de Recebíveis do Agronegócio (CRA), o Certificado de Direitos Creditórios do Agronegócio (CDCA) e as Cédulas de Produto Rural com liquidação financeira, desde que negociadas no mercado financeiro. Isso põe fim à isenção que sustentava a atratividade desses papéis para o investidor, sobretudo a pessoa física, motor silencioso da expansão do agro no mercado de capitais.
-<br>
+<br><br>
 É essencial compreender o que está em jogo: não se trata apenas de um ajuste contábil ou de uma nova regra fiscal. Estamos falando da coluna vertebral de um modelo de financiamento que democratizou o crédito rural, especialmente fora do balcão tradicional dos grandes bancos. Com a tributação, a conta deixará de fechar para o investidor — que exigirá maior retorno — e para o produtor, que pagará mais caro para plantar, armazenar ou industrializar sua produção.
 <br>
 A medida colide frontalmente com tudo o que vínhamos construindo em torno da modernização da política agrícola brasileira. O Fiagro, os CRAs, os Fundos Imobiliários Rurais, as LCAs, os CDCAs e a CPR-F não surgiram por acaso. Foram estruturados com base em modelos internacionais de fomento ao agro via mercado de capitais — como os Farm Credit Bonds dos EUA ou os títulos garantidos por ativos do agro na Europa.
