@@ -653,28 +653,25 @@ export const articles = [
   readTime: '7 min',
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2Zt14qO65BRdRHSMpfuCjSQc4A8PMX2MbqONttLKw87iYd6BICICXnE&s=10w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JlZGl0b3MlMjBhZ3JpY29sYXN8ZW58MHx8MHx8fDI%3D',
   content: `
-    <p style="font-size: 1em; margin-bottom: 1em;">MP 1.303/2025 e o Desmonte Silencioso do Financiamento do Agronegócio
-
-Por Guilherme Medeiros – Advogado agrarista, especialista em Crédito Rural e Seguro Agrícola
-
+    <p style="font-size: 1em; margin-bottom: 1em;">
 A Medida Provisória nº 1.303/2025, editada no apagar das luzes de 11 de junho, representa um movimento grave de retrocesso no financiamento do agronegócio brasileiro. Sob o pretexto de “harmonizar a tributação de aplicações financeiras”, o que se opera na prática é uma taxação inédita e desastrosa sobre instrumentos essenciais à estrutura do crédito privado rural.
-<br/>
+<br><br>
 A partir de 1º de janeiro de 2026, passarão a ser tributados à alíquota de 5% os rendimentos de títulos como a Letra de Crédito do Agronegócio (LCA), o Certificado de Recebíveis do Agronegócio (CRA), o Certificado de Direitos Creditórios do Agronegócio (CDCA) e as Cédulas de Produto Rural com liquidação financeira, desde que negociadas no mercado financeiro. Isso põe fim à isenção que sustentava a atratividade desses papéis para o investidor, sobretudo a pessoa física, motor silencioso da expansão do agro no mercado de capitais.
 <br><br>
 É essencial compreender o que está em jogo: não se trata apenas de um ajuste contábil ou de uma nova regra fiscal. Estamos falando da coluna vertebral de um modelo de financiamento que democratizou o crédito rural, especialmente fora do balcão tradicional dos grandes bancos. Com a tributação, a conta deixará de fechar para o investidor — que exigirá maior retorno — e para o produtor, que pagará mais caro para plantar, armazenar ou industrializar sua produção.
-<br>
+<br><br>
 A medida colide frontalmente com tudo o que vínhamos construindo em torno da modernização da política agrícola brasileira. O Fiagro, os CRAs, os Fundos Imobiliários Rurais, as LCAs, os CDCAs e a CPR-F não surgiram por acaso. Foram estruturados com base em modelos internacionais de fomento ao agro via mercado de capitais — como os Farm Credit Bonds dos EUA ou os títulos garantidos por ativos do agro na Europa.
-<br>
+<br><br>
 Mais do que comprometer a atratividade desses papéis, a MP 1.303/2025 coloca em xeque toda a modernização legislativa que instituiu o financiamento privado do agronegócio, uma conquista que permitiu ao setor reduzir sua dependência do crédito público, aumentar sua eficiência e expandir sua presença no mercado financeiro. Uma ruptura desse porte ameaça diretamente o setor que mais emprega, mais arrecada e mais exporta no Brasil.
-<br>
+<br><br>
 A pergunta é inevitável: por que tributar o crédito que alimenta a economia real em vez de atacar os desperdícios da máquina pública?
-<br>
+<br><br>
 A MP 1.303 compromete a diversificação do funding agrícola, a competitividade do produtor brasileiro e o futuro da desintermediação bancária. Em vez de construir soluções estruturantes para garantir segurança jurídica e previsibilidade ao investidor, o governo opta por uma arrecadação imediatista, que pode representar bilhões a menos em crédito nos próximos anos para o campo brasileiro.
-<br>
+<br><br>
 Mais preocupante ainda é que toda a cadeia produtiva sentirá o impacto: cooperativas terão dificuldade para captar recursos; tradings terão custos maiores para estruturar CPRs; securitizadoras verão seu papel esvaziado; e fundos de investimento — como Fiagro e FII Agro — perderão cotistas diante de regras mais onerosas e instáveis.
-<br>
+<br><br>
 Como advogado agrarista, militante da causa rural e estudioso do crédito agrícola brasileiro, discordo frontalmente dessa medida provisória e me somo aos que defendem o agro como política de Estado — e não como fonte de arrecadação emergencial.
-<br>
+<br><br>
 É hora de nos mobilizarmos — como operadores do Direito Agrário, como produtores, como entidades representativas e como cidadãos — para exigir do Congresso Nacional que não convalide esse ataque silencioso ao futuro do campo brasileiro.</p>
   `,
   featured: false
