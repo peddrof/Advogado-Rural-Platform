@@ -669,6 +669,6 @@ export const articles = [
 
     <p style="font-size: 1em; margin-bottom: 1em;">O Congresso Nacional tem, agora, a responsabilidade de revisar e rejeitar essa medida provisória, garantindo que o agro seja tratado como política de Estado, e não como fonte imediata de arrecadação fiscal. Caso contrário, o Brasil corre o risco de minar um dos sistemas de financiamento rural mais inovadores e promissores da sua história recente.</p>
   `,
-  featured: true
+  featured: false
 }
 ];
