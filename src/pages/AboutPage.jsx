@@ -40,7 +40,7 @@ const AboutPage = () => {
             Sobre o Advogado Rural
           </h1>
           <p className="text-rural-darkgreen/80 max-w-2xl mx-auto">
-            Conheça nossa missão de fornecer informações jurídicas especializadas para o homem do campo e profissionais do agronegócio.
+            Temos a missão de fornecer informações jurídicas especializadas para o homem do campo e profissionais do agronegócio.
           </p>
         </motion.div>
 
@@ -54,8 +54,8 @@ const AboutPage = () => {
           >
             <img  
               className="w-full h-full object-cover"
-              alt="Equipe de advogados do Advogado Rural"
-              src="https://images.unsplash.com/photo-1543051932-6ef9fecfbc80?q=80&w=1024&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+              alt="Foto do Advogado Rural"
+              src="https://iili.io/FBgRyBt.jpg" 
             />
           </motion.div>
 
@@ -66,18 +66,16 @@ const AboutPage = () => {
             className="flex flex-col justify-center"
           >
             <h2 className="text-3xl font-serif font-bold text-rural-darkgreen mb-6">
-              Nossa História
+              Guilherme Medeiros
             </h2>
             <div className="space-y-4 text-rural-darkgreen/80">
               <p>
-                O Advogado Rural foi criado com o propósito de compartilhar conhecimento jurídico especializado em direito rural e agronegócio, atendendo à necessidade de informações acessíveis e confiáveis para o setor.
-              </p>
-              <p>
-                Desde 2018, nossa plataforma se dedica a publicar artigos e textos que abordam temas jurídicos relevantes para produtores rurais, empresários do agronegócio e profissionais da área, ajudando-os a compreender melhor seus direitos e deveres.
-              </p>
-              <p>
-                Nosso objetivo é contribuir para o fortalecimento do setor rural brasileiro, oferecendo conteúdo de qualidade que auxilie na tomada de decisões e no enfrentamento dos desafios jurídicos do dia a dia.
-              </p>
+                Advogado (OAB/RS 63.985) especializado em Direito Agrário - UNIP, Crédito Rural e Seguro Agrícola -<br/><br/>
+Certificado FBB 420 em Crédito Rural (Febraban).<br/>
+Advogado no escritório WBA Advogados Associados.
+Vice-Presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU – União Brasileira dos Agraristas Universitários.
+Membro da Comissão Especial de Direito Agrário e do Agronegócio da OAB/RS. Pos Graduando em Direito Processual Civil PUC-RS e Direito Aplicado ao Agronegócio e Políticas Agrícolas - ESMAFE/PR.
+                </p>
             </div>
           </motion.div>
         </div>
