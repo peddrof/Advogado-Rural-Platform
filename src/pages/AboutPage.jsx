@@ -70,12 +70,13 @@ const AboutPage = () => {
             </h2>
             <div className="space-y-4 text-rural-darkgreen/80">
               <p>
-                Advogado (OAB/RS 63.985) especializado em Direito Agrário - UNIP, Crédito Rural e Seguro Agrícola -<br/><br/>
-Certificado FBB 420 em Crédito Rural (Febraban).<br/>
-Advogado no escritório WBA Advogados Associados.
-Vice-Presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU – União Brasileira dos Agraristas Universitários.
-Membro da Comissão Especial de Direito Agrário e do Agronegócio da OAB/RS. Pos Graduando em Direito Processual Civil PUC-RS e Direito Aplicado ao Agronegócio e Políticas Agrícolas - ESMAFE/PR.
-                </p>
+                Advogado (OAB/RS 63.985) especializado em Direito Agrário - UNIP, Crédito Rural e Seguro Agrícola<br/><br/>
+                Certificado FBB 420 em Crédito Rural (Febraban).<br/><br/>
+                Advogado no escritório WBA Advogados Associados.<br/><br/>
+                Vice-Presidente da Comissão de Crédito Rural e Financiamento Privado da UBAU – União Brasileira dos Agraristas Universitários.<br/><br/>
+                Membro da Comissão Especial de Direito Agrário e do Agronegócio da OAB/RS. <br/><br/>
+                Pos Graduando em Direito Processual Civil PUC-RS e Direito Aplicado ao Agronegócio e Políticas Agrícolas - ESMAFE/PR.
+              </p>
             </div>
           </motion.div>
         </div>
