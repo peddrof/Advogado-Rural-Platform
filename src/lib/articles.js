@@ -675,5 +675,21 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
 É hora de nos mobilizarmos — como operadores do Direito Agrário, como produtores, como entidades representativas e como cidadãos — para exigir do Congresso Nacional que não convalide esse ataque silencioso ao futuro do campo brasileiro.</p>
   `,
   featured: false
+},
+  {
+  "id": 17,
+  "title": "Vitória do Escritório no TJRS: Decisão Garante Direito do Produtor Rural contra Banco em Ação de Busca e Apreensão",
+  "subtitle": "Decisão do TJRS anula busca e apreensão e reforça proteção ao produtor rural",
+  "slug": "vitoria-escritorio-tjrs-decisao-anula-busca-apreensao-reforca-protecao-produtor-rural",
+  "category": "Direito Agrário",
+  "author": "Guilherme Medeiros Advogado agrarista",
+  "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
+  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "date": "17 de junho de 2025",
+  "readTime": "2 min",
+  "featured": false,
+  "image": "https://images.unsplash.com/photo-1472257431654-857ddbfea97d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "content": "<h2 style=\"font-size: 1.5em; margin-bottom: 0.5em;\">Vitória do Escritório no TJRS</h2><p style=\"font-size: 1em; margin-bottom: 1em;\">O Tribunal de Justiça do Rio Grande do Sul (TJRS), por meio da 14ª Câmara Cível, acolheu recurso interposto por nossa equipe em favor do produtor rural Alexandro Dotto, revertendo liminar de busca e apreensão ajuizada pelo Banco de Lage Landen Brasil S.A.</p><p style=\"font-size: 1em; margin-bottom: 1em;\">A decisão foi proferida pelo Desembargador Roberto Sbravati, que deu provimento ao agravo de instrumento e determinou a extinção da ação de busca e apreensão, com base na falta de regular constituição em mora do devedor, exigência legal prevista no Decreto‑Lei nº 911/69, com redação da Lei nº 13.043/2014, e consolidada pela jurisprudência do Superior Tribunal de Justiça (STJ).</p><h2 style=\"font-size: 1.5em; margin-bottom: 0.5em;\">O que Estava em Jogo</h2><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>Trator agrícola</li><li>Plantadeira</li><li>Grade destorroadora</li><li>Valetadeira rotativa</li></ul><h2 style=\"font-size: 1.5em; margin-bottom: 0.5em;\">Principais Fundamentos da Vitória</h2><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li><strong>Nulidade da Notificação de Mora:</strong> O TJRS reconheceu que a notificação extrajudicial enviada pelo banco foi remetida para endereço diverso daquele indicado no contrato e onde o produtor efetivamente residia, tornando o procedimento irregular.</li><li><strong>Falta de requisito essencial para a ação:</strong> Sem comprovação válida da mora, a ação de busca e apreensão torna-se processualmente inviável, conforme art. 2º, §2º do DL 911/69 e art. 485, IV e §11 do CPC.</li><li><strong>Jurisprudência aplicada:</strong> O relator analisou a jurisprudência do STJ (Súmulas 72, 568 e 7), reforçando que a notificação precisa ser enviada ao endereço correto com comprovação de ciência do devedor.</li></ul><h2 style=\"font-size: 1.5em; margin-bottom: 0.5em;\">Resultado Final</h2><ul style=\"font-size: 1em; margin-bottom: 1em; list-style-type: disc; padding-left: 20px;\"><li>Decisão: Extinção da Ação de Busca e Apreensão.</li><li>Condenação do banco ao pagamento de honorários advocatícios de 10% sobre o valor da causa.</li><li>Custas processuais a cargo do banco.</li></ul><h2 style=\"font-size: 1.5em; margin-bottom: 0.5em;\">Nossa Visão sobre a Decisão</h2><p style=\"font-size: 1em; margin-bottom: 1em;\">Mais uma vez, reafirma-se a importância de defender com firmeza os direitos dos produtores rurais frente a procedimentos bancários indevidos. Essa decisão não apenas protege o cliente, mas serve de precedente para centenas de produtores em todo o Brasil.</p>"
 }
+
 ];
