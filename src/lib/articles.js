@@ -678,7 +678,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
 },
   {
   "id": 17,
-  "title": "Vitória do Escritório no TJRS: Decisão Garante Direito do Produtor Rural contra Banco em Ação de Busca e Apreensão",
+  "title": "Decisão Garante Direito do Produtor Rural contra Banco em Ação de Busca e Apreensão",
   "subtitle": "Decisão do TJRS anula busca e apreensão e reforça proteção ao produtor rural",
   "slug": "vitoria-escritorio-tjrs-decisao-anula-busca-apreensao-reforca-protecao-produtor-rural",
   "category": "Direito Agrário",
