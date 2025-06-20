@@ -711,7 +711,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "title": "Seguro Rural: A Política Agrícola que o Governo Insiste em Destruir",
   "subtitle": "Congelamento de 42% do PSR evidencia retrocesso na gestão de risco agrícola",
   "slug": "seguro-rural-politica-agricola-governo-insiste-destruir",
-  "category": "Direito Agrário",
+  "category": "Política Agrícola",
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
   "authorPhoto": "https://iili.io/3vHuR9I.png",
