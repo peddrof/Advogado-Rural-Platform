@@ -27,7 +27,7 @@ const AboutPage = () => {
   ];
 
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-20 pb-16">
       <div className="container-custom">
         {/* Header */}
         <motion.div 

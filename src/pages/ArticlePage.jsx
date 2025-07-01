@@ -76,7 +76,7 @@ const ArticlePage = () => {
   }
 
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-20 pb-16">
       <Helmet>
         <title>{article.title}</title>
         <meta name="description" content={article.subtitle} />

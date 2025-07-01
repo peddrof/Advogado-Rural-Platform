@@ -171,7 +171,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="pt-32 pb-16 px-4">
+    <div className="pt-20 pb-16 px-4">
       <div className="container-custom max-w-7xl mx-auto">
         {/* Header */}
         <motion.div 

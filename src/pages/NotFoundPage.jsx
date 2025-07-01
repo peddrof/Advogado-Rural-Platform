@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -6,7 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 
 const NotFoundPage = () => {
   return (
-    <div className="pt-32 pb-16 min-h-screen">
+    <div className="pt-20 pb-16 min-h-screen">
       <div className="container-custom">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

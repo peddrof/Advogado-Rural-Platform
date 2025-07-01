@@ -71,7 +71,7 @@ const BlogPage = () => {
   };
 
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-20 pb-16">
       <div className="container-custom">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
