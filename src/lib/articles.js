@@ -9,7 +9,7 @@ export const articles = [
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole:
       "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "3 de julho de 2023",
     readTime: "7 min",
     image:
@@ -34,7 +34,7 @@ export const articles = [
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole:
       "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "16 de junho de 2023",
     readTime: "6 min",
     image:
@@ -61,7 +61,7 @@ export const articles = [
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole:
       "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "14 de agosto de 2023",
     readTime: "10 min",
     image:
@@ -95,7 +95,7 @@ export const articles = [
     category: "Direito Agrário",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado e Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "9 de novembro de 2023",
     readTime: "8 min",
     image:
@@ -132,7 +132,7 @@ export const articles = [
     category: "Política Agrícola",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado e Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "10 de fevereiro de 2024",
     readTime: "6 min",
     image:
@@ -157,7 +157,7 @@ export const articles = [
     category: "Política Agrícola",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado e Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "3 de junho de 2024",
     readTime: "7 min",
     image:
@@ -187,7 +187,7 @@ export const articles = [
     category: "Crédito Rural",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "11 de julho de 2024",
     readTime: "10 min",
     image:
@@ -240,7 +240,7 @@ export const articles = [
     category: "Crédito Rural",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado e Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "23 de setembro de 2024",
     readTime: "12 min",
     image:
@@ -290,7 +290,7 @@ export const articles = [
     category: "Crédito Rural",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "2 de dezembro de 2024",
     readTime: "12 min",
     image:
@@ -383,7 +383,7 @@ export const articles = [
     category: "Contratos Rurais",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "11 de dezembro de 2024",
     readTime: "8 min",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
@@ -431,7 +431,7 @@ export const articles = [
     category: "Contratos Rurais",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "11 de dezembro de 2024",
     readTime: "15 min",
     image:
@@ -496,7 +496,7 @@ export const articles = [
     category: "Crédito Rural",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "22 de fevereiro de 2025",
     readTime: "4 min",
     image:
@@ -536,7 +536,7 @@ export const articles = [
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole:
       "Especialista com vasta experiência em questões jurídicas relacionadas ao setor rural e agronegócio.o",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "20 de março de 2025",
     readTime: "10 min",
     image:
@@ -589,7 +589,7 @@ export const articles = [
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole:
       "Advogado Especialista em Direito Agrário e Direito do Agronegócio",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "15 de maio de 2025",
     readTime: "8 min",
     image:
@@ -616,7 +616,7 @@ export const articles = [
     category: "Crédito Rural",
     author: "Guilherme Medeiros Advogado agrarista",
     authorRole: "Advogado Especialista em Direito Agrário e Crédito Rural",
-    authorPhoto: "https://iili.io/3vHuR9I.png",
+    authorPhoto: "https://iili.io/F7a2Ewg.png",
     date: "22 de maio de 2025",
     readTime: "10 min",
     image:
@@ -633,7 +633,7 @@ export const articles = [
   "category": "Direito Agrário",
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "7 de junho de 2025",
   "readTime": "5 min",
   "image": "https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2021/06/horses-5716127__340-e1623757162228.jpg",
@@ -648,7 +648,7 @@ export const articles = [
   category: 'Crédito Rural',
   author: 'Guilherme Medeiros Advogado agrarista',
   authorRole: 'Advogado Especialista em Direito Agrário e Direito do Agronegócio',
-  authorPhoto: 'https://iili.io/3vHuR9I.png',
+  authorPhoto: 'https://iili.io/F7a2Ewg.png',
   date: '12 de junho de 2025',
   readTime: '7 min',
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2Zt14qO65BRdRHSMpfuCjSQc4A8PMX2MbqONttLKw87iYd6BICICXnE&s=10w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JlZGl0b3MlMjBhZ3JpY29sYXN8ZW58MHx8MHx8fDI%3D',
@@ -684,7 +684,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "category": "Direito Agrário",
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "17 de junho de 2025",
   "readTime": "5 min",
   "featured": false,
@@ -699,7 +699,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "category": "Direito Agrário",
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "19 de junho de 2025",
   "readTime": "4 min",
   "featured": false,
@@ -714,7 +714,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "category": "Política Agrícola",
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "20 de junho de 2025",
   "readTime": "6 min",
   "featured": false,
@@ -729,7 +729,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "category": "Direito Agrário",
   "author": "Guilherme Medeiros",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "23 de junho de 2025",
   "readTime": "6 min",
   "featured": false,
@@ -744,7 +744,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "category": "Direito Agrário",
   "author": "Guilherme Medeiros Advogado agrícola",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
-  "authorPhoto": "https://iili.io/3vHuR9I.png",
+  "authorPhoto": "https://iili.io/F7a2Ewg.png",
   "date": "27 de junho de 2025",
   "readTime": "7 min",
   "featured": false,
