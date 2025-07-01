@@ -18,7 +18,7 @@ const HeroSection = () => {
           <img  
             className="w-full h-[400px] sm:h-[500px] md:h-[600px] object-cover"
             alt="Paisagem rural com fazenda e plantações com homem em frente"
-            src="https://iili.io/3etrokQ.md.png"
+            src="https://iili.io/F7aKiSp.md.png"
           />
           
           <div className="absolute inset-0 z-20 flex flex-col justify-center p-6 sm:p-8 md:p-12">
