@@ -22,7 +22,7 @@ const Footer = () => {
               <img  
                 alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
                 src="https://i.ibb.co/LdQsw2vg/New-logger.png"
-                className="h-18 w-auto" />
+                className="h-14 w-auto" />
             </Link>
             <p className="text-rural-beige/80 mt-4">
               Assessoria jurídica especializada para o homem do campo, defendendo seus direitos e interesses com conhecimento e dedicação. OAB/RS n˚ 63.985.
