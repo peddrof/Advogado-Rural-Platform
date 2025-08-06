@@ -21,7 +21,7 @@ const Footer = () => {
             <Link to="/" className="inline-block">
               <img  
                 alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-                src="https://iili.io/F2TWicN.png"
+                src="https://i.ibb.co/DfcWKwsP/New-Project-50-copy.png"
                 className="h-12 w-auto" />
             </Link>
             <p className="text-rural-beige/80 mt-4">
