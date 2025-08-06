@@ -36,7 +36,7 @@ const Header = ({ scrolled }) => {
           >
             <img  
               alt="Logo Guilherme Medeiros Acessoria em Agronegocio"
-              src=""
+              src="https://i.ibb.co/LdQsw2vg/New-logger.png"
               className="h-10 md:h-18 w-auto"
             />
           </motion.div>
