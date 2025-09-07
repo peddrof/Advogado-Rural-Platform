@@ -805,7 +805,7 @@ Como advogado agrarista, militante da causa rural e estudioso do crédito agríc
   "author": "Guilherme Medeiros Advogado agrarista",
   "authorRole": "Advogado Especialista em Direito Agrário e Crédito Rural",
   "authorPhoto": "https://i.ibb.co/XrkKM7Zf/image.png",
-  "date": "07 de setembro de 2025",
+  "date": "7 de setembro de 2025",
   "readTime": "7 min",
   "featured": false,
   "image": "https://images.pexels.com/photos/14086604/pexels-photo-14086604.jpeg",
