@@ -55,7 +55,7 @@ const AboutPage = () => {
             <img  
               className="w-full h-full object-cover"
               alt="Foto do Advogado Rural"
-              src="https://iili.io/FBgRyBt.jpg" 
+              src="https://i.ibb.co/XrkKM7Zf/image.png" 
             />
           </motion.div>
 
